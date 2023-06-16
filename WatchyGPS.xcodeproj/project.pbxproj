@@ -7,6 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B623225928822FAA00AFE1A3 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0516E287F0564007A4CD0 /* CompassView.swift */; };
+		B623225B28823B4100AFE1A3 /* GeocacheIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623225A28823B4100AFE1A3 /* GeocacheIcons.swift */; };
+		B623225C28823B4100AFE1A3 /* GeocacheIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623225A28823B4100AFE1A3 /* GeocacheIcons.swift */; };
+		B623225E288434AB00AFE1A3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623225D288434AB00AFE1A3 /* MainView.swift */; };
+		B623225F288434AB00AFE1A3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623225D288434AB00AFE1A3 /* MainView.swift */; };
+		B62983E52889E29800007D3B /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62983E32889E29800007D3B /* LogView.swift */; };
+		B62983E62889EBC400007D3B /* LogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62983E32889E29800007D3B /* LogView.swift */; };
+		B62C778E2892CBE300739E16 /* MapView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C778D2892CBE300739E16 /* MapView3.swift */; };
+		B62C778F2892CBE300739E16 /* MapView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62C778D2892CBE300739E16 /* MapView3.swift */; };
+		B643F5D72891E7BF005DABFD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672C4402891CA6800D762BD /* MapView.swift */; };
+		B643F5D82891EA4A005DABFD /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672C4402891CA6800D762BD /* MapView.swift */; };
+		B652788A2880DEFD000770C4 /* GeocachingCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65278892880DEFD000770C4 /* GeocachingCom.swift */; };
+		B652788B2880DEFD000770C4 /* GeocachingCom.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65278892880DEFD000770C4 /* GeocachingCom.swift */; };
+		B65278902880E479000770C4 /* TestGeocachingData.json in Resources */ = {isa = PBXBuildFile; fileRef = B652788F2880E479000770C4 /* TestGeocachingData.json */; };
+		B65278912880E479000770C4 /* TestGeocachingData.json in Resources */ = {isa = PBXBuildFile; fileRef = B652788F2880E479000770C4 /* TestGeocachingData.json */; };
+		B65278932880E979000770C4 /* GeocachingJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65278922880E979000770C4 /* GeocachingJSON.swift */; };
+		B65278942880E979000770C4 /* GeocachingJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65278922880E979000770C4 /* GeocachingJSON.swift */; };
+		B65278962880F3B9000770C4 /* GeocacheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65278952880F3B9000770C4 /* GeocacheView.swift */; };
+		B65278972880F3B9000770C4 /* GeocacheView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B65278952880F3B9000770C4 /* GeocacheView.swift */; };
+		B65278992880F5D4000770C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65278982880F5D4000770C4 /* Assets.xcassets */; };
+		B652789A2880F5D4000770C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B65278982880F5D4000770C4 /* Assets.xcassets */; };
+		B652789C28818CFE000770C4 /* GeocacheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652789B28818CFE000770C4 /* GeocacheListView.swift */; };
+		B652789D28818CFE000770C4 /* GeocacheListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652789B28818CFE000770C4 /* GeocacheListView.swift */; };
+		B65278A028818F46000770C4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652789F28818F46000770C4 /* SignInView.swift */; };
+		B65278A128818F46000770C4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652789F28818F46000770C4 /* SignInView.swift */; };
+		B672C4442891CB3500D762BD /* MapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672C4432891CB3500D762BD /* MapUtils.swift */; };
+		B672C4452891CB3500D762BD /* MapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672C4432891CB3500D762BD /* MapUtils.swift */; };
+		B68DEFFA2884395C00C1EA12 /* GeocacheMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFF92884395C00C1EA12 /* GeocacheMapView.swift */; };
+		B68DEFFB2884395C00C1EA12 /* GeocacheMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFF92884395C00C1EA12 /* GeocacheMapView.swift */; };
+		B68DEFFE2884A07A00C1EA12 /* GeocacheDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFFC2884A07A00C1EA12 /* GeocacheDetailView.swift */; };
+		B68DF0002886E79000C1EA12 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFFF2886E79000C1EA12 /* Icons.swift */; };
+		B68DF0012886E79000C1EA12 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFFF2886E79000C1EA12 /* Icons.swift */; };
+		B68DF003288712D500C1EA12 /* GeocacheDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFFC2884A07A00C1EA12 /* GeocacheDetailView.swift */; };
+		B68DF0062887138E00C1EA12 /* PreviewViewWatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DF0042887138E00C1EA12 /* PreviewViewWatch.swift */; };
+		B68DF008288713EA00C1EA12 /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DF007288713EA00C1EA12 /* PreviewView.swift */; };
+		B69461F82893206E000B00B4 /* GeocacheMapView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69461F72893206E000B00B4 /* GeocacheMapView2.swift */; };
+		B69461F92893206E000B00B4 /* GeocacheMapView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69461F72893206E000B00B4 /* GeocacheMapView2.swift */; };
 		B6D05133287EFC2D007A4CD0 /* WatchyGPSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D05132287EFC2D007A4CD0 /* WatchyGPSApp.swift */; };
 		B6D05135287EFC2D007A4CD0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D05134287EFC2D007A4CD0 /* ContentView.swift */; };
 		B6D05137287EFC2F007A4CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D05136287EFC2F007A4CD0 /* Assets.xcassets */; };
@@ -21,6 +58,11 @@
 		B6D05156287EFC30007A4CD0 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D05155287EFC30007A4CD0 /* ComplicationController.swift */; };
 		B6D05158287EFC30007A4CD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D05157287EFC30007A4CD0 /* Assets.xcassets */; };
 		B6D0515B287EFC30007A4CD0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6D0515A287EFC30007A4CD0 /* Preview Assets.xcassets */; };
+		B6D0516D287EFCC6007A4CD0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0516C287EFCC6007A4CD0 /* Utilities.swift */; };
+		B6D05170287F056D007A4CD0 /* Utilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0516C287EFCC6007A4CD0 /* Utilities.swift */; };
+		B6D05171287F056F007A4CD0 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0516E287F0564007A4CD0 /* CompassView.swift */; };
+		B6D05173287F1B00007A4CD0 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D05172287F1B00007A4CD0 /* LocationDelegate.swift */; };
+		B6D05174287F1B00007A4CD0 /* LocationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D05172287F1B00007A4CD0 /* LocationDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +108,28 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		B600ED512889AF5300D41790 /* libswift_Concurrency.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswift_Concurrency.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/lib/swift/libswift_Concurrency.tbd; sourceTree = DEVELOPER_DIR; };
+		B600ED532889AF8C00D41790 /* libswiftFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftFoundation.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/lib/swift/libswiftFoundation.tbd; sourceTree = DEVELOPER_DIR; };
+		B623225A28823B4100AFE1A3 /* GeocacheIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheIcons.swift; sourceTree = "<group>"; };
+		B623225D288434AB00AFE1A3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B62983E32889E29800007D3B /* LogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogView.swift; sourceTree = "<group>"; };
+		B62C778D2892CBE300739E16 /* MapView3.swift */ = {isa = PBXFileReference; indentWidth = 5; lastKnownFileType = sourcecode.swift; path = MapView3.swift; sourceTree = "<group>"; };
+		B643F5D92891F9D0005DABFD /* MapView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView2.swift; sourceTree = "<group>"; };
+		B65278892880DEFD000770C4 /* GeocachingCom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocachingCom.swift; sourceTree = "<group>"; };
+		B652788F2880E479000770C4 /* TestGeocachingData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = TestGeocachingData.json; sourceTree = "<group>"; };
+		B65278922880E979000770C4 /* GeocachingJSON.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocachingJSON.swift; sourceTree = "<group>"; };
+		B65278952880F3B9000770C4 /* GeocacheView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheView.swift; sourceTree = "<group>"; };
+		B65278982880F5D4000770C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B652789B28818CFE000770C4 /* GeocacheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheListView.swift; sourceTree = "<group>"; };
+		B652789F28818F46000770C4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		B672C4402891CA6800D762BD /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		B672C4432891CB3500D762BD /* MapUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUtils.swift; sourceTree = "<group>"; };
+		B68DEFF92884395C00C1EA12 /* GeocacheMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheMapView.swift; sourceTree = "<group>"; };
+		B68DEFFC2884A07A00C1EA12 /* GeocacheDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheDetailView.swift; sourceTree = "<group>"; };
+		B68DEFFF2886E79000C1EA12 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
+		B68DF0042887138E00C1EA12 /* PreviewViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewWatch.swift; sourceTree = "<group>"; };
+		B68DF007288713EA00C1EA12 /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		B69461F72893206E000B00B4 /* GeocacheMapView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheMapView2.swift; sourceTree = "<group>"; };
 		B6D0512F287EFC2D007A4CD0 /* WatchyGPS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchyGPS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6D05132287EFC2D007A4CD0 /* WatchyGPSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchyGPSApp.swift; sourceTree = "<group>"; };
 		B6D05134287EFC2D007A4CD0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -83,6 +147,11 @@
 		B6D0515A287EFC30007A4CD0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6D0515C287EFC30007A4CD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B6D0515D287EFC30007A4CD0 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		B6D0516C287EFCC6007A4CD0 /* Utilities.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilities.swift; sourceTree = "<group>"; };
+		B6D0516E287F0564007A4CD0 /* CompassView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassView.swift; sourceTree = "<group>"; };
+		B6D05172287F1B00007A4CD0 /* LocationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDelegate.swift; sourceTree = "<group>"; };
+		B6DFE80E2895D91200514A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6DFE8132895DA5900514A12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,13 +172,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B600ED502889AF5300D41790 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B600ED532889AF8C00D41790 /* libswiftFoundation.tbd */,
+				B600ED512889AF5300D41790 /* libswift_Concurrency.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B672C43F2891CA5700D762BD /* MapTiling */ = {
+			isa = PBXGroup;
+			children = (
+				B672C4402891CA6800D762BD /* MapView.swift */,
+				B643F5D92891F9D0005DABFD /* MapView2.swift */,
+				B62C778D2892CBE300739E16 /* MapView3.swift */,
+				B672C4432891CB3500D762BD /* MapUtils.swift */,
+			);
+			path = MapTiling;
+			sourceTree = "<group>";
+		};
 		B6D05126287EFC2D007A4CD0 = {
 			isa = PBXGroup;
 			children = (
+				B6D0516B287EFCB7007A4CD0 /* Shared */,
 				B6D05131287EFC2D007A4CD0 /* WatchyGPS */,
 				B6D05141287EFC2F007A4CD0 /* WatchyGPS WatchKit App */,
 				B6D0514C287EFC30007A4CD0 /* WatchyGPS WatchKit Extension */,
 				B6D05130287EFC2D007A4CD0 /* Products */,
+				B600ED502889AF5300D41790 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,8 +217,10 @@
 		B6D05131287EFC2D007A4CD0 /* WatchyGPS */ = {
 			isa = PBXGroup;
 			children = (
+				B6DFE80E2895D91200514A12 /* Info.plist */,
 				B6D05132287EFC2D007A4CD0 /* WatchyGPSApp.swift */,
 				B6D05134287EFC2D007A4CD0 /* ContentView.swift */,
+				B68DF007288713EA00C1EA12 /* PreviewView.swift */,
 				B6D05136287EFC2F007A4CD0 /* Assets.xcassets */,
 				B6D05138287EFC2F007A4CD0 /* Preview Content */,
 			);
@@ -146,6 +239,7 @@
 			isa = PBXGroup;
 			children = (
 				B6D05142287EFC2F007A4CD0 /* Assets.xcassets */,
+				B6DFE8132895DA5900514A12 /* Info.plist */,
 			);
 			path = "WatchyGPS WatchKit App";
 			sourceTree = "<group>";
@@ -153,6 +247,7 @@
 		B6D0514C287EFC30007A4CD0 /* WatchyGPS WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				B68DF0042887138E00C1EA12 /* PreviewViewWatch.swift */,
 				B6D0514D287EFC30007A4CD0 /* WatchyGPSApp.swift */,
 				B6D0514F287EFC30007A4CD0 /* ContentView.swift */,
 				B6D05151287EFC30007A4CD0 /* NotificationController.swift */,
@@ -172,6 +267,31 @@
 				B6D0515A287EFC30007A4CD0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B6D0516B287EFCB7007A4CD0 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				B672C43F2891CA5700D762BD /* MapTiling */,
+				B652788F2880E479000770C4 /* TestGeocachingData.json */,
+				B6D0516C287EFCC6007A4CD0 /* Utilities.swift */,
+				B6D05172287F1B00007A4CD0 /* LocationDelegate.swift */,
+				B65278892880DEFD000770C4 /* GeocachingCom.swift */,
+				B65278922880E979000770C4 /* GeocachingJSON.swift */,
+				B65278952880F3B9000770C4 /* GeocacheView.swift */,
+				B62983E32889E29800007D3B /* LogView.swift */,
+				B623225A28823B4100AFE1A3 /* GeocacheIcons.swift */,
+				B68DEFFF2886E79000C1EA12 /* Icons.swift */,
+				B68DEFFC2884A07A00C1EA12 /* GeocacheDetailView.swift */,
+				B652789B28818CFE000770C4 /* GeocacheListView.swift */,
+				B68DEFF92884395C00C1EA12 /* GeocacheMapView.swift */,
+				B69461F72893206E000B00B4 /* GeocacheMapView2.swift */,
+				B623225D288434AB00AFE1A3 /* MainView.swift */,
+				B6D0516E287F0564007A4CD0 /* CompassView.swift */,
+				B652789F28818F46000770C4 /* SignInView.swift */,
+				B65278982880F5D4000770C4 /* Assets.xcassets */,
+			);
+			path = Shared;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -276,7 +396,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65278902880E479000770C4 /* TestGeocachingData.json in Resources */,
 				B6D0513A287EFC2F007A4CD0 /* Preview Assets.xcassets in Resources */,
+				B65278992880F5D4000770C4 /* Assets.xcassets in Resources */,
 				B6D05137287EFC2F007A4CD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +415,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B65278912880E479000770C4 /* TestGeocachingData.json in Resources */,
 				B6D0515B287EFC30007A4CD0 /* Preview Assets.xcassets in Resources */,
+				B652789A2880F5D4000770C4 /* Assets.xcassets in Resources */,
 				B6D05158287EFC30007A4CD0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,8 +429,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68DF0002886E79000C1EA12 /* Icons.swift in Sources */,
+				B6D0516D287EFCC6007A4CD0 /* Utilities.swift in Sources */,
+				B623225B28823B4100AFE1A3 /* GeocacheIcons.swift in Sources */,
+				B65278962880F3B9000770C4 /* GeocacheView.swift in Sources */,
 				B6D05135287EFC2D007A4CD0 /* ContentView.swift in Sources */,
+				B69461F82893206E000B00B4 /* GeocacheMapView2.swift in Sources */,
+				B652789C28818CFE000770C4 /* GeocacheListView.swift in Sources */,
+				B672C4442891CB3500D762BD /* MapUtils.swift in Sources */,
+				B65278A028818F46000770C4 /* SignInView.swift in Sources */,
+				B62C778E2892CBE300739E16 /* MapView3.swift in Sources */,
 				B6D05133287EFC2D007A4CD0 /* WatchyGPSApp.swift in Sources */,
+				B623225E288434AB00AFE1A3 /* MainView.swift in Sources */,
+				B68DF008288713EA00C1EA12 /* PreviewView.swift in Sources */,
+				B6D05173287F1B00007A4CD0 /* LocationDelegate.swift in Sources */,
+				B623225928822FAA00AFE1A3 /* CompassView.swift in Sources */,
+				B62983E62889EBC400007D3B /* LogView.swift in Sources */,
+				B652788A2880DEFD000770C4 /* GeocachingCom.swift in Sources */,
+				B643F5D72891E7BF005DABFD /* MapView.swift in Sources */,
+				B65278932880E979000770C4 /* GeocachingJSON.swift in Sources */,
+				B68DF003288712D500C1EA12 /* GeocacheDetailView.swift in Sources */,
+				B68DEFFA2884395C00C1EA12 /* GeocacheMapView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,11 +457,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B68DEFFE2884A07A00C1EA12 /* GeocacheDetailView.swift in Sources */,
+				B6D05170287F056D007A4CD0 /* Utilities.swift in Sources */,
+				B623225F288434AB00AFE1A3 /* MainView.swift in Sources */,
+				B643F5D82891EA4A005DABFD /* MapView.swift in Sources */,
+				B6D05171287F056F007A4CD0 /* CompassView.swift in Sources */,
+				B65278972880F3B9000770C4 /* GeocacheView.swift in Sources */,
 				B6D05152287EFC30007A4CD0 /* NotificationController.swift in Sources */,
 				B6D05150287EFC30007A4CD0 /* ContentView.swift in Sources */,
+				B68DF0062887138E00C1EA12 /* PreviewViewWatch.swift in Sources */,
 				B6D05156287EFC30007A4CD0 /* ComplicationController.swift in Sources */,
+				B65278942880E979000770C4 /* GeocachingJSON.swift in Sources */,
+				B68DEFFB2884395C00C1EA12 /* GeocacheMapView.swift in Sources */,
+				B652789D28818CFE000770C4 /* GeocacheListView.swift in Sources */,
+				B652788B2880DEFD000770C4 /* GeocachingCom.swift in Sources */,
+				B62983E52889E29800007D3B /* LogView.swift in Sources */,
+				B6D05174287F1B00007A4CD0 /* LocationDelegate.swift in Sources */,
+				B672C4452891CB3500D762BD /* MapUtils.swift in Sources */,
 				B6D0514E287EFC30007A4CD0 /* WatchyGPSApp.swift in Sources */,
+				B68DF0012886E79000C1EA12 /* Icons.swift in Sources */,
 				B6D05154287EFC30007A4CD0 /* NotificationView.swift in Sources */,
+				B62C778F2892CBE300739E16 /* MapView3.swift in Sources */,
+				B69461F92893206E000B00B4 /* GeocacheMapView2.swift in Sources */,
+				B65278A128818F46000770C4 /* SignInView.swift in Sources */,
+				B623225C28823B4100AFE1A3 /* GeocacheIcons.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,11 +550,15 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -440,10 +606,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -475,7 +645,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -508,7 +678,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -523,6 +693,7 @@
 				DEVELOPMENT_TEAM = Y96CR5Y4Q5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchyGPS_WatchKit_Extension;
+				INFOPLIST_FILE = WatchyGPS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchyGPS WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.benbean.WatchyGPS;
@@ -534,7 +705,7 @@
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Debug;
 		};
@@ -549,6 +720,7 @@
 				DEVELOPMENT_TEAM = Y96CR5Y4Q5;
 				GENERATE_INFOPLIST_FILE = YES;
 				IBSC_MODULE = WatchyGPS_WatchKit_Extension;
+				INFOPLIST_FILE = WatchyGPS/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "WatchyGPS WatchKit App";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.benbean.WatchyGPS;
@@ -561,7 +733,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALIDATE_PRODUCT = YES;
-				WATCHOS_DEPLOYMENT_TARGET = 8.5;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
 			};
 			name = Release;
 		};
@@ -574,17 +746,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchyGPS/Preview Content\"";
 				DEVELOPMENT_TEAM = Y96CR5Y4Q5;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = WatchyGPS/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = GPS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbean.WatchyGPS;
@@ -605,17 +785,25 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"WatchyGPS/Preview Content\"";
 				DEVELOPMENT_TEAM = Y96CR5Y4Q5;
+				DONT_GENERATE_INFOPLIST_FILE = NO;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = WatchyGPS/Info.plist;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = GPS;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SDKROOT)/usr/lib/swift",
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.benbean.WatchyGPS;

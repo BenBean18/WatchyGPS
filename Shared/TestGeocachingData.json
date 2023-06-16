@@ -1,0 +1,3295 @@
+{
+    "results": [
+        {
+            "id": 6736554,
+            "name": "Note Me",
+            "code": "GC7PXQ4",
+            "premiumOnly": false,
+            "favoritePoints": 4,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 1.5,
+            "terrain": 2.0,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0180555555556,
+                "longitude": -78.9277777777778
+            },
+            "detailsUrl": "/geocache/GC7PXQ4",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2018-05-19T00:00:00",
+            "owner": {
+                "code": "PRG89KE",
+                "username": "geograce18"
+            },
+            "lastFoundDate": "2022-07-14T11:21:58",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 63,
+                    "name": "Recommended for tourists",
+                    "isApplicable": true
+                },
+                {
+                    "id": 30,
+                    "name": "Picnic tables nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.5mi",
+            "bearing": "E"
+        },
+        {
+            "id": 2850004,
+            "name": "UNROUND",
+            "code": "GC3GEEH",
+            "premiumOnly": true,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 1.0,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.01655,
+                "longitude": -78.927917
+            },
+            "detailsUrl": "/geocache/GC3GEEH",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2012-04-07T00:00:00",
+            "owner": {
+                "code": "PR68CX5",
+                "username": "Tandemguy"
+            },
+            "lastFoundDate": "2022-05-14T11:13:43",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 30,
+                    "name": "Picnic tables nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 26,
+                    "name": "Public transportation nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.5mi",
+            "bearing": "E"
+        },
+        {
+            "id": 1824327,
+            "name": "Forgotten Cemetery Puzzle",
+            "code": "GC2D156",
+            "premiumOnly": false,
+            "favoritePoints": 13,
+            "geocacheType": 8,
+            "containerType": 2,
+            "difficulty": 2.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.017133,
+                "longitude": -78.945383
+            },
+            "detailsUrl": "/geocache/GC2D156",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2010-08-07T00:00:00",
+            "owner": {
+                "code": "PR3FB8F",
+                "username": "HamFam529"
+            },
+            "lastFoundDate": "2022-05-26T13:14:44",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.5mi",
+            "bearing": "W"
+        },
+        {
+            "id": 3826311,
+            "name": "NCSSM-1",
+            "code": "GC4J7CA",
+            "premiumOnly": false,
+            "favoritePoints": 2,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 3.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.018817,
+                "longitude": -78.926083
+            },
+            "detailsUrl": "/geocache/GC4J7CA",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2021-01-07T14:54:02",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.6mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3831440,
+            "name": "NCSSM-3",
+            "code": "GC4JCPR",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 2.5,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.018467,
+                "longitude": -78.92425
+            },
+            "detailsUrl": "/geocache/GC4JCPR",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2022-03-03T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "0.7mi",
+            "bearing": "E"
+        },
+        {
+            "id": 2868991,
+            "name": "Buttonwood Agreement",
+            "code": "GC3H371",
+            "premiumOnly": true,
+            "favoritePoints": 6,
+            "geocacheType": 3,
+            "containerType": 8,
+            "difficulty": 2.0,
+            "terrain": 2.0,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.024283,
+                "longitude": -78.925633
+            },
+            "detailsUrl": "/geocache/GC3H371",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2012-04-15T00:00:00",
+            "owner": {
+                "code": "PR68CX5",
+                "username": "Tandemguy"
+            },
+            "lastFoundDate": "2020-03-14T10:48:29",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 30,
+                    "name": "Picnic tables nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 59,
+                    "name": "Food nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 26,
+                    "name": "Public transportation nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 58,
+                    "name": "Fuel nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.7mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 3831451,
+            "name": "NCSSM-5",
+            "code": "GC4JCQ4",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 2.0,
+            "terrain": 1.0,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.01825,
+                "longitude": -78.923067
+            },
+            "detailsUrl": "/geocache/GC4JCQ4",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2018-02-13T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 24,
+                    "name": "Wheelchair accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "0.7mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3831457,
+            "name": "NCSSM-6",
+            "code": "GC4JCQA",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 2.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.019167,
+                "longitude": -78.922917
+            },
+            "detailsUrl": "/geocache/GC4JCQA",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2016-10-14T00:38:48.835",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "0.7mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3831462,
+            "name": "NCSSM-7",
+            "code": "GC4JCQF",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 4.0,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.02,
+                "longitude": -78.922667
+            },
+            "detailsUrl": "/geocache/GC4JCQF",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2016-10-14T00:38:39.133",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 55,
+                    "name": "Short hike (<1 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.8mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3831467,
+            "name": "NCSSM-8",
+            "code": "GC4JCQM",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 2.0,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.020733,
+                "longitude": -78.92255
+            },
+            "detailsUrl": "/geocache/GC4JCQM",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2016-10-14T00:38:29.54",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "0.8mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3831470,
+            "name": "NCSSM-9",
+            "code": "GC4JCQQ",
+            "premiumOnly": false,
+            "favoritePoints": 3,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 3.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.020733,
+                "longitude": -78.921383
+            },
+            "detailsUrl": "/geocache/GC4JCQQ",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2022-03-03T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 14,
+                    "name": "Recommended at night",
+                    "isApplicable": false
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.9mi",
+            "bearing": "E"
+        },
+        {
+            "id": 5178903,
+            "name": "A Photo Tour",
+            "code": "GC61KWA",
+            "premiumOnly": false,
+            "favoritePoints": 6,
+            "geocacheType": 5,
+            "containerType": 2,
+            "difficulty": 2.0,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.011333,
+                "longitude": -78.92195
+            },
+            "detailsUrl": "/geocache/GC61KWA",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2015-08-16T00:00:00",
+            "owner": {
+                "code": "PR9B18X",
+                "username": "BJSgeo"
+            },
+            "lastFoundDate": "2022-01-27T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 59,
+                    "name": "Food nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.9mi",
+            "bearing": "SE"
+        },
+        {
+            "id": 3831475,
+            "name": "NCSSM-10",
+            "code": "GC4JCQX",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 3.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.020733,
+                "longitude": -78.920217
+            },
+            "detailsUrl": "/geocache/GC4JCQX",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2016-10-14T00:38:10.755",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "0.9mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3679781,
+            "name": "The Swarm- Blue Devil",
+            "code": "GC4D9XH",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": true,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0052,
+                "longitude": -78.941583
+            },
+            "detailsUrl": "/geocache/GC4D9XH",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2013-05-31T00:00:00",
+            "owner": {
+                "code": "PR3TEYV",
+                "username": "e-bird67"
+            },
+            "lastFoundDate": "2022-06-01T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "0.9mi",
+            "bearing": "S"
+        },
+        {
+            "id": 3549296,
+            "name": "EX LIBRIS Howard Carter",
+            "code": "GC48Y4B",
+            "premiumOnly": false,
+            "favoritePoints": 5,
+            "geocacheType": 8,
+            "containerType": 2,
+            "difficulty": 3.0,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0286,
+                "longitude": -78.925267
+            },
+            "detailsUrl": "/geocache/GC48Y4B",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-04-12T00:00:00",
+            "owner": {
+                "code": "PR1R6WR",
+                "username": "StumpWater"
+            },
+            "lastFoundDate": "2022-03-30T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 18,
+                    "name": "Dangerous animals",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "1mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 3831488,
+            "name": "NCSSM-11",
+            "code": "GC4JCRA",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 3.5,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.020733,
+                "longitude": -78.91905
+            },
+            "detailsUrl": "/geocache/GC4JCRA",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2016-10-14T00:38:00.364",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "1mi",
+            "bearing": "E"
+        },
+        {
+            "id": 4302000,
+            "name": "NCSSM-12",
+            "code": "GC536C4",
+            "premiumOnly": false,
+            "favoritePoints": 5,
+            "geocacheType": 8,
+            "containerType": 3,
+            "difficulty": 4.0,
+            "terrain": 2.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.020733,
+                "longitude": -78.917883
+            },
+            "detailsUrl": "/geocache/GC536C4",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2021-07-22T12:37:11",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 55,
+                    "name": "Short hike (<1 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 18,
+                    "name": "Dangerous animals",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1mi",
+            "bearing": "E"
+        },
+        {
+            "id": 7968758,
+            "name": "Grotesque Adventure Lab Bonus Cache",
+            "code": "GC928YM",
+            "premiumOnly": false,
+            "favoritePoints": 21,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 1.5,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0019,
+                "longitude": -78.94025
+            },
+            "detailsUrl": "/geocache/GC928YM",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2020-11-04T00:00:00",
+            "owner": {
+                "code": "PRWR0K",
+                "username": "ncbiscuit"
+            },
+            "lastFoundDate": "2022-06-03T14:05:45",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 72,
+                    "name": "Geocaching.com solution checker",
+                    "isApplicable": true
+                },
+                {
+                    "id": 69,
+                    "name": "Bonus cache",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.1mi",
+            "bearing": "S"
+        },
+        {
+            "id": 7600837,
+            "name": "Indiana Born and Indiana Bred",
+            "code": "GC8MY37",
+            "premiumOnly": false,
+            "favoritePoints": 17,
+            "geocacheType": 137,
+            "containerType": 6,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.001655,
+                "longitude": -78.939795
+            },
+            "detailsUrl": "/geocache/GC8MY37",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2020-03-17T00:00:00",
+            "owner": {
+                "code": "PRWR0K",
+                "username": "ncbiscuit"
+            },
+            "lastFoundDate": "2022-05-29T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 8,
+                    "name": "Scenic view",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": false
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 14,
+                    "name": "Recommended at night",
+                    "isApplicable": false
+                },
+                {
+                    "id": 28,
+                    "name": "Public restrooms nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.1mi",
+            "bearing": "S"
+        },
+        {
+            "id": 7590938,
+            "name": "Duke Stone/Hillsborough Stone Earthcache",
+            "code": "GC8MJRX",
+            "premiumOnly": false,
+            "favoritePoints": 17,
+            "geocacheType": 137,
+            "containerType": 6,
+            "difficulty": 1.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.001617,
+                "longitude": -78.9399
+            },
+            "detailsUrl": "/geocache/GC8MJRX",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2020-03-11T00:00:00",
+            "owner": {
+                "code": "PRWR0K",
+                "username": "ncbiscuit"
+            },
+            "lastFoundDate": "2022-05-29T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 8,
+                    "name": "Scenic view",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": false
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 52,
+                    "name": "Night cache",
+                    "isApplicable": false
+                },
+                {
+                    "id": 14,
+                    "name": "Recommended at night",
+                    "isApplicable": false
+                },
+                {
+                    "id": 28,
+                    "name": "Public restrooms nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": false
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.1mi",
+            "bearing": "S"
+        },
+        {
+            "id": 1866731,
+            "name": "Opuntia humifusa",
+            "code": "GC2EE92",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 3,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0027166666667,
+                "longitude": -78.9449333333334
+            },
+            "detailsUrl": "/geocache/GC2EE92",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2010-09-01T00:00:00",
+            "owner": {
+                "code": "PR3TEYV",
+                "username": "e-bird67"
+            },
+            "lastFoundDate": "2022-06-13T19:33:22",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.2mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 5215312,
+            "name": "Duke Pond",
+            "code": "GC62VQT",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 2.5,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.003517,
+                "longitude": -78.94735
+            },
+            "detailsUrl": "/geocache/GC62VQT",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2015-09-03T00:00:00",
+            "owner": {
+                "code": "PR9B18X",
+                "username": "BJSgeo"
+            },
+            "lastFoundDate": "2022-06-14T12:16:23",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.2mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 4205279,
+            "name": "Endangered Geocache",
+            "code": "GC4ZYQ3",
+            "premiumOnly": false,
+            "favoritePoints": 8,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.000883,
+                "longitude": -78.934067
+            },
+            "detailsUrl": "/geocache/GC4ZYQ3",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2016-08-13T00:00:00",
+            "owner": {
+                "code": "PR9B18X",
+                "username": "BJSgeo"
+            },
+            "lastFoundDate": "2022-07-09T11:36:29",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": false
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 2,
+                    "name": "Access/parking fee",
+                    "isApplicable": true
+                },
+                {
+                    "id": 55,
+                    "name": "Short hike (<1 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 63,
+                    "name": "Recommended for tourists",
+                    "isApplicable": true
+                },
+                {
+                    "id": 28,
+                    "name": "Public restrooms nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.2mi",
+            "bearing": "S"
+        },
+        {
+            "id": 7564683,
+            "name": "Power Position",
+            "code": "GC8KPEZ",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.030033,
+                "longitude": -78.921017
+            },
+            "detailsUrl": "/geocache/GC8KPEZ",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2020-02-19T00:00:00",
+            "owner": {
+                "code": "PRNH44W",
+                "username": "Mwferrell65"
+            },
+            "lastFoundDate": "2022-07-14T16:44:59",
+            "trackableCount": 1,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 63,
+                    "name": "Recommended for tourists",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.2mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 5328705,
+            "name": "Northern Lights",
+            "code": "GC66MQM",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 2.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.026883,
+                "longitude": -78.917683
+            },
+            "detailsUrl": "/geocache/GC66MQM",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2015-11-10T00:00:00",
+            "owner": {
+                "code": "PR9B18X",
+                "username": "BJSgeo"
+            },
+            "lastFoundDate": "2022-03-21T18:45:31",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 28,
+                    "name": "Public restrooms nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.2mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 5266781,
+            "name": "Duke Pond #2",
+            "code": "GC64JA3",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.003867,
+                "longitude": -78.95005
+            },
+            "detailsUrl": "/geocache/GC64JA3",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2015-10-04T00:00:00",
+            "owner": {
+                "code": "PR9B18X",
+                "username": "BJSgeo"
+            },
+            "lastFoundDate": "2022-06-15T13:33:53",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 8,
+                    "name": "Scenic view",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 55,
+                    "name": "Short hike (<1 km)",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.2mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 1019757,
+            "name": "SOUTH OF HEAVEN  (Descent)",
+            "code": "GC1H0YA",
+            "premiumOnly": false,
+            "favoritePoints": 19,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 3.0,
+            "terrain": 3.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0194,
+                "longitude": -78.913917
+            },
+            "detailsUrl": "/geocache/GC1H0YA",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2008-10-08T00:00:00",
+            "owner": {
+                "code": "PR1808W",
+                "username": "vortexecho"
+            },
+            "lastFoundDate": "2019-10-13T20:58:17",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 56,
+                    "name": "Medium hike (1 km–10 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 14,
+                    "name": "Recommended at night",
+                    "isApplicable": false
+                },
+                {
+                    "id": 44,
+                    "name": "Flashlight required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 11,
+                    "name": "May require wading",
+                    "isApplicable": true
+                },
+                {
+                    "id": 64,
+                    "name": "Tree climbing required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 10,
+                    "name": "Difficult climb",
+                    "isApplicable": true
+                },
+                {
+                    "id": 23,
+                    "name": "Dangerous area",
+                    "isApplicable": true
+                },
+                {
+                    "id": 18,
+                    "name": "Dangerous animals",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.2mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3831447,
+            "name": "NCSSM-4",
+            "code": "GC4JCQ0",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 8,
+            "containerType": 6,
+            "difficulty": 2.5,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.017117,
+                "longitude": -78.923333
+            },
+            "userCorrectedCoordinates": {
+                "latitude": 36.0182166666667,
+                "longitude": -78.9137
+            },
+            "detailsUrl": "/geocache/GC4JCQ0",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-06-05T00:00:00",
+            "owner": {
+                "code": "PR4Q0ZC",
+                "username": "randlm"
+            },
+            "lastFoundDate": "2017-07-24T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": true,
+            "distance": "0.7mi",
+            "bearing": "E"
+        },
+        {
+            "id": 3403461,
+            "name": "Southgate First Aid",
+            "code": "GC441C0",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 2.0,
+            "terrain": 2.0,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.00575,
+                "longitude": -78.919033
+            },
+            "detailsUrl": "/geocache/GC441C0",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2013-01-06T00:00:00",
+            "owner": {
+                "code": "PRK0P4",
+                "username": "OzGuff"
+            },
+            "lastFoundDate": "2022-07-02T13:12:01",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 8,
+                    "name": "Scenic view",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.3mi",
+            "bearing": "SE"
+        },
+        {
+            "id": 2654652,
+            "name": "House Stark:  Arya",
+            "code": "GC39X5W",
+            "premiumOnly": false,
+            "favoritePoints": 3,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 3.0,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.020817,
+                "longitude": -78.913017
+            },
+            "detailsUrl": "/geocache/GC39X5W",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2011-12-29T00:00:00",
+            "owner": {
+                "code": "PR5KZ3J",
+                "username": "TimeoCaprimulgum"
+            },
+            "lastFoundDate": "2021-08-01T17:59:29",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 59,
+                    "name": "Food nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 26,
+                    "name": "Public transportation nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 33,
+                    "name": "Motorcycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.3mi",
+            "bearing": "E"
+        },
+        {
+            "id": 201883,
+            "name": "Morreene Road Park Cache",
+            "code": "GCMHW9",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 3,
+            "difficulty": 1.5,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.007817,
+                "longitude": -78.956217
+            },
+            "detailsUrl": "/geocache/GCMHW9",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2005-01-18T00:00:00",
+            "owner": {
+                "code": "PRN9Y2",
+                "username": "jklGoDuke"
+            },
+            "lastFoundDate": "2022-07-14T17:40:16",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.3mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 8547585,
+            "name": "Gold hanging in green",
+            "code": "GC9NP8F",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.026967,
+                "longitude": -78.915283
+            },
+            "detailsUrl": "/geocache/GC9NP8F",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2022-02-19T00:00:00",
+            "owner": {
+                "code": "PRFKQ7A",
+                "username": "dgnc"
+            },
+            "lastFoundDate": "2022-07-14T11:59:46",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "hasCallerNote": false,
+            "distance": "1.3mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 479538,
+            "name": "Nash \"Er Teeth",
+            "code": "GCYWRX",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 35.999533,
+                "longitude": -78.9281
+            },
+            "detailsUrl": "/geocache/GCYWRX",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2006-10-15T00:00:00",
+            "owner": {
+                "code": "PR18NHY",
+                "username": "mbouvier93"
+            },
+            "lastFoundDate": "2022-04-23T13:24:37",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 2,
+                    "name": "Access/parking fee",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.3mi",
+            "bearing": "S"
+        },
+        {
+            "id": 6782602,
+            "name": "DPR Critter: Morreene Road Park",
+            "code": "GC7REMH",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 2.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.006267,
+                "longitude": -78.955758
+            },
+            "detailsUrl": "/geocache/GC7REMH",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2018-06-19T00:00:00",
+            "owner": {
+                "code": "PR10NRK",
+                "username": "hiketeck"
+            },
+            "lastFoundDate": "2022-05-20T17:16:32",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 30,
+                    "name": "Picnic tables nearby",
+                    "isApplicable": false
+                },
+                {
+                    "id": 28,
+                    "name": "Public restrooms nearby",
+                    "isApplicable": false
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": false
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.4mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 6841546,
+            "name": "You're in Luck! An LPC with a Twist!",
+            "code": "GC7VDZZ",
+            "premiumOnly": false,
+            "favoritePoints": 7,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 2.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.018183,
+                "longitude": -78.911817
+            },
+            "detailsUrl": "/geocache/GC7VDZZ",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2018-07-31T00:00:00",
+            "owner": {
+                "code": "PR9B18X",
+                "username": "BJSgeo"
+            },
+            "lastFoundDate": "2022-07-14T10:47:04",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 47,
+                    "name": "Field puzzle",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 28,
+                    "name": "Public restrooms nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.4mi",
+            "bearing": "E"
+        },
+        {
+            "id": 1981850,
+            "name": "Ode to the end of Cacher's Block!!!",
+            "code": "GC2JA2J",
+            "premiumOnly": false,
+            "favoritePoints": 2,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 1.5,
+            "terrain": 2.0,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 35.9988,
+                "longitude": -78.942283
+            },
+            "detailsUrl": "/geocache/GC2JA2J",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2010-11-15T00:00:00",
+            "owner": {
+                "code": "PR3TEYV",
+                "username": "e-bird67"
+            },
+            "lastFoundDate": "2022-06-05T15:43:37",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "hasCallerNote": false,
+            "distance": "1.4mi",
+            "bearing": "S"
+        },
+        {
+            "id": 4292487,
+            "name": "EX LIBRIS John Dee",
+            "code": "GC52WF8",
+            "premiumOnly": false,
+            "favoritePoints": 5,
+            "geocacheType": 8,
+            "containerType": 2,
+            "difficulty": 3.0,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0204,
+                "longitude": -78.911667
+            },
+            "detailsUrl": "/geocache/GC52WF8",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-04-18T00:00:00",
+            "owner": {
+                "code": "PR1R6WR",
+                "username": "StumpWater"
+            },
+            "lastFoundDate": "2022-07-01T12:10:42",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 18,
+                    "name": "Dangerous animals",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.4mi",
+            "bearing": "E"
+        },
+        {
+            "id": 7564692,
+            "name": "Cedar Row",
+            "code": "GC8KPF8",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0301,
+                "longitude": -78.91655
+            },
+            "detailsUrl": "/geocache/GC8KPF8",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2020-02-19T00:00:00",
+            "owner": {
+                "code": "PRNH44W",
+                "username": "Mwferrell65"
+            },
+            "lastFoundDate": "2022-06-03T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 55,
+                    "name": "Short hike (<1 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 63,
+                    "name": "Recommended for tourists",
+                    "isApplicable": true
+                },
+                {
+                    "id": 59,
+                    "name": "Food nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 58,
+                    "name": "Fuel nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.4mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 517428,
+            "name": "Bright Leaf",
+            "code": "GC10575",
+            "premiumOnly": false,
+            "favoritePoints": 3,
+            "geocacheType": 2,
+            "containerType": 3,
+            "difficulty": 1.5,
+            "terrain": 2.0,
+            "userFound": true,
+            "userDidNotFind": true,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0348,
+                "longitude": -78.922133
+            },
+            "detailsUrl": "/geocache/GC10575",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2007-01-02T00:00:00",
+            "owner": {
+                "code": "PR18NHY",
+                "username": "mbouvier93"
+            },
+            "lastFoundDate": "2022-07-14T17:04:34",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 30,
+                    "name": "Picnic tables nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 28,
+                    "name": "Public restrooms nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 27,
+                    "name": "Drinking water nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.4mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 3822117,
+            "name": "Shop N Cache",
+            "code": "GC4J311",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.0,
+            "terrain": 1.0,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.017367,
+                "longitude": -78.909467
+            },
+            "detailsUrl": "/geocache/GC4J311",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2013-08-05T00:00:00",
+            "owner": {
+                "code": "PR8JCYW",
+                "username": "cjzimme"
+            },
+            "lastFoundDate": "2022-07-14T10:46:22",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 24,
+                    "name": "Wheelchair accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 2,
+                    "name": "Access/parking fee",
+                    "isApplicable": true
+                },
+                {
+                    "id": 59,
+                    "name": "Food nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 58,
+                    "name": "Fuel nearby",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.5mi",
+            "bearing": "E"
+        },
+        {
+            "id": 8089317,
+            "name": "Searching For A Signal",
+            "code": "GC96ACM",
+            "premiumOnly": false,
+            "favoritePoints": 9,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 35.999485,
+                "longitude": -78.918131
+            },
+            "detailsUrl": "/geocache/GC96ACM",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2021-02-15T00:00:00",
+            "owner": {
+                "code": "PR5XKQ2",
+                "username": "Quinstar555"
+            },
+            "lastFoundDate": "2022-07-05T12:13:39",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 55,
+                    "name": "Short hike (<1 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 63,
+                    "name": "Recommended for tourists",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.6mi",
+            "bearing": "SE"
+        },
+        {
+            "id": 5393628,
+            "name": "The Trinity Chirp",
+            "code": "GC68V9Y",
+            "premiumOnly": false,
+            "favoritePoints": 5,
+            "geocacheType": 8,
+            "containerType": 8,
+            "difficulty": 2.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.0053,
+                "longitude": -78.91085
+            },
+            "detailsUrl": "/geocache/GC68V9Y",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2015-12-29T00:00:00",
+            "owner": {
+                "code": "PR9B18X",
+                "username": "BJSgeo"
+            },
+            "lastFoundDate": "2021-11-18T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 60,
+                    "name": "Wireless beacon",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.7mi",
+            "bearing": "SE"
+        },
+        {
+            "id": 8211372,
+            "name": "Time Capsule",
+            "code": "GC9ADCX",
+            "premiumOnly": false,
+            "favoritePoints": 0,
+            "geocacheType": 2,
+            "containerType": 3,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.03366,
+                "longitude": -78.913839
+            },
+            "detailsUrl": "/geocache/GC9ADCX",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2021-04-29T00:00:00",
+            "owner": {
+                "code": "PR16JB9Q",
+                "username": "Laura13vz"
+            },
+            "lastFoundDate": "2021-11-13T19:27:38",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 55,
+                    "name": "Short hike (<1 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.7mi",
+            "bearing": "NE"
+        },
+        {
+            "id": 2565943,
+            "name": "UNC/DUKE",
+            "code": "GC36XW9",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 35.999333,
+                "longitude": -78.955367
+            },
+            "detailsUrl": "/geocache/GC36XW9",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2011-10-30T00:00:00",
+            "owner": {
+                "code": "PR5YXHB",
+                "username": "jmchavez"
+            },
+            "lastFoundDate": "2022-07-14T16:34:53",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 24,
+                    "name": "Wheelchair accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 41,
+                    "name": "Stroller accessible",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.7mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 8173930,
+            "name": "Log-a-log",
+            "code": "GC995E3",
+            "premiumOnly": false,
+            "favoritePoints": 3,
+            "geocacheType": 2,
+            "containerType": 8,
+            "difficulty": 2.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.023333,
+                "longitude": -78.967
+            },
+            "detailsUrl": "/geocache/GC995E3",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2021-04-10T00:00:00",
+            "owner": {
+                "code": "PR1KKKP",
+                "username": "crista marie"
+            },
+            "lastFoundDate": "2022-05-28T10:03:51",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.8mi",
+            "bearing": "W"
+        },
+        {
+            "id": 4725808,
+            "name": "VINCENTY'S FORMULAE",
+            "code": "GC5HDCB",
+            "premiumOnly": false,
+            "favoritePoints": 3,
+            "geocacheType": 3,
+            "containerType": 3,
+            "difficulty": 3.5,
+            "terrain": 2.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 35.99645,
+                "longitude": -78.955817
+            },
+            "detailsUrl": "/geocache/GC5HDCB",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2014-12-05T00:00:00",
+            "owner": {
+                "code": "PR68CX5",
+                "username": "Tandemguy"
+            },
+            "lastFoundDate": "2021-11-17T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.8mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 2852364,
+            "name": "Around we go/Ceda El Paso",
+            "code": "GC3GGXN",
+            "premiumOnly": false,
+            "favoritePoints": 1,
+            "geocacheType": 2,
+            "containerType": 2,
+            "difficulty": 1.5,
+            "terrain": 1.5,
+            "userFound": true,
+            "userDidNotFind": false,
+            "cacheStatus": 1,
+            "postedCoordinates": {
+                "latitude": 36.00065,
+                "longitude": -78.961867
+            },
+            "detailsUrl": "/geocache/GC3GGXN",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2012-04-08T00:00:00",
+            "owner": {
+                "code": "PR5YXHB",
+                "username": "jmchavez"
+            },
+            "lastFoundDate": "2020-06-27T09:27:06",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 53,
+                    "name": "Park and grab",
+                    "isApplicable": true
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 40,
+                    "name": "Stealth required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 15,
+                    "name": "Available in winter",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.9mi",
+            "bearing": "SW"
+        },
+        {
+            "id": 1857258,
+            "name": "Ashes to Ashes",
+            "code": "GC2E4DF",
+            "premiumOnly": false,
+            "favoritePoints": 26,
+            "geocacheType": 3,
+            "containerType": 3,
+            "difficulty": 3.0,
+            "terrain": 2.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 35.9942,
+                "longitude": -78.9188
+            },
+            "detailsUrl": "/geocache/GC2E4DF",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2010-09-12T00:00:00",
+            "owner": {
+                "code": "PR1R6WR",
+                "username": "StumpWater"
+            },
+            "lastFoundDate": "2022-03-01T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": false
+                },
+                {
+                    "id": 8,
+                    "name": "Scenic view",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": false
+                },
+                {
+                    "id": 25,
+                    "name": "Parking nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 14,
+                    "name": "Recommended at night",
+                    "isApplicable": false
+                },
+                {
+                    "id": 18,
+                    "name": "Dangerous animals",
+                    "isApplicable": true
+                },
+                {
+                    "id": 19,
+                    "name": "Ticks",
+                    "isApplicable": true
+                },
+                {
+                    "id": 17,
+                    "name": "Poisonous plants",
+                    "isApplicable": true
+                },
+                {
+                    "id": 39,
+                    "name": "Thorns",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.9mi",
+            "bearing": "SE"
+        },
+        {
+            "id": 7830666,
+            "name": "Adventure Lab Bonus - Paint the Town",
+            "code": "GC8XM82",
+            "premiumOnly": false,
+            "favoritePoints": 17,
+            "geocacheType": 8,
+            "containerType": 2,
+            "difficulty": 2.0,
+            "terrain": 1.5,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.000533,
+                "longitude": -78.909667
+            },
+            "detailsUrl": "/geocache/GC8XM82",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2020-08-01T00:00:00",
+            "owner": {
+                "code": "PRKTJC",
+                "username": "Penguincacher"
+            },
+            "lastFoundDate": "2022-06-26T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 42,
+                    "name": "Needs maintenance",
+                    "isApplicable": true
+                },
+                {
+                    "id": 6,
+                    "name": "Recommended for kids",
+                    "isApplicable": true
+                },
+                {
+                    "id": 1,
+                    "name": "Dogs",
+                    "isApplicable": true
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": true
+                },
+                {
+                    "id": 32,
+                    "name": "Bicycles",
+                    "isApplicable": true
+                },
+                {
+                    "id": 72,
+                    "name": "Geocaching.com solution checker",
+                    "isApplicable": true
+                },
+                {
+                    "id": 69,
+                    "name": "Bonus cache",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.9mi",
+            "bearing": "SE"
+        },
+        {
+            "id": 1078891,
+            "name": "SOUTH OF HEAVEN II  (Torment)",
+            "code": "GC1K0EW",
+            "premiumOnly": false,
+            "favoritePoints": 18,
+            "geocacheType": 8,
+            "containerType": 2,
+            "difficulty": 4.0,
+            "terrain": 4.0,
+            "userFound": false,
+            "userDidNotFind": false,
+            "cacheStatus": 0,
+            "postedCoordinates": {
+                "latitude": 36.00595,
+                "longitude": -78.90545
+            },
+            "detailsUrl": "/geocache/GC1K0EW",
+            "hasGeotour": false,
+            "hasLogDraft": false,
+            "placedDate": "2008-12-21T00:00:00",
+            "owner": {
+                "code": "PR1808W",
+                "username": "vortexecho"
+            },
+            "lastFoundDate": "2015-05-30T12:00:00",
+            "trackableCount": 0,
+            "region": "North Carolina",
+            "country": "United States",
+            "attributes": [
+                {
+                    "id": 13,
+                    "name": "Available 24/7",
+                    "isApplicable": false
+                },
+                {
+                    "id": 7,
+                    "name": "Takes less than one hour",
+                    "isApplicable": false
+                },
+                {
+                    "id": 56,
+                    "name": "Medium hike (1 km–10 km)",
+                    "isApplicable": true
+                },
+                {
+                    "id": 9,
+                    "name": "Significant hike",
+                    "isApplicable": true
+                },
+                {
+                    "id": 44,
+                    "name": "Flashlight required",
+                    "isApplicable": true
+                },
+                {
+                    "id": 26,
+                    "name": "Public transportation nearby",
+                    "isApplicable": true
+                },
+                {
+                    "id": 29,
+                    "name": "Telephone nearby",
+                    "isApplicable": false
+                },
+                {
+                    "id": 11,
+                    "name": "May require wading",
+                    "isApplicable": true
+                },
+                {
+                    "id": 10,
+                    "name": "Difficult climb",
+                    "isApplicable": true
+                },
+                {
+                    "id": 23,
+                    "name": "Dangerous area",
+                    "isApplicable": true
+                },
+                {
+                    "id": 18,
+                    "name": "Dangerous animals",
+                    "isApplicable": true
+                }
+            ],
+            "hasCallerNote": false,
+            "distance": "1.9mi",
+            "bearing": "SE"
+        }
+    ],
+    "total": 706
+}
