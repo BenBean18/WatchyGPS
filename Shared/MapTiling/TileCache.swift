@@ -37,6 +37,7 @@ extension String {
 
 // Consider storing the image within the Tile struct itself
 // Makes stuff easier
+// (never mind, not really since tiles get overwritten when the map moves)
 class TileCache {
     static let shared = TileCache()
     
@@ -53,5 +54,16 @@ class TileCache {
         } catch {
             print("Failed to cache image")
         }
+    }
+    
+    func retrieveTileFromCache(tile: Tile) -> UIImage {
+        let fileURL = documentsDirectory.appendingPathExtension("\(MAP_PROVIDER.name.convertedToSlug())/\(tile.z)/\(tile.x)-\(tile.y).png")
+        var uiImage: UIImage = UIImage(systemName: "exclamationmark.triangle.fill")!
+        do {
+            uiImage = try UIImage(data: Data(contentsOf: fileURL))!
+        } catch {
+            // do nothing, image is already the default /!\
+        }
+        return uiImage
     }
 }
