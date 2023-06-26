@@ -10,7 +10,7 @@ import SwiftUI
 struct PreviewViewWatch: View {
     var body: some View {
         Group {
-            LogView()
+            CompassView()
         }
     }
 }

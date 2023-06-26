@@ -10,6 +10,7 @@ import MapKit
 
 struct MapProvider: Hashable, Equatable {
     var url: String
+    var name: String
     var scaleFactor: CGFloat
     var maxZoom: Int
 }
@@ -91,9 +92,6 @@ struct GeocacheMapView2: View {
                     }
                     .onAppear {
                         // z = findMaxZoom(CLLocationCoordinate2D(latitude: center.latitude - 10000 * m, longitude: center.longitude - 10000 * m), CLLocationCoordinate2D(latitude: center.latitude + 10000 * m, longitude: center.longitude + 10000 * m), tileLimit: 16)
-#if os(iOS)
-                        MKMapView.appearance().delegate = Delegate(_mv: MKMapView.appearance())
-#endif
                     }
                 }
                 VStack {
@@ -143,25 +141,27 @@ struct GeocacheMapView2: View {
                             .sheet(isPresented: $settingsPresented) {
                                 VStack {
                                     Picker("Tile Server", selection: Binding<MapProvider>(get: {
-                                        return MapProvider(url: TILESERVER_URL, scaleFactor: scaleFactor, maxZoom: TILESERVER_MAX_Z)
+                                        return MapProvider(url: MAP_PROVIDER.url, name: MAP_PROVIDER.name, scaleFactor: MAP_PROVIDER.scaleFactor, maxZoom: MAP_PROVIDER.maxZoom)
                                     }, set: { pr in
-                                        TILESERVER_URL = pr.url
-                                        scaleFactor = pr.scaleFactor
-                                        TILESERVER_MAX_Z = pr.maxZoom
+//                                        MAP_PROVIDER.url = pr.url
+//                                        scaleFactor = pr.scaleFactor
+//                                        MAP_PROVIDER.maxZoom = pr.maxZoom
+                                        MAP_PROVIDER = pr
                                     }), content: {
-                                        Text("GC.com").tag(MapProvider(url: "https://maptiles.geocaching.com/tile/{z}/{x}/{y}@2x.png", scaleFactor: 2, maxZoom: 17))
-                                        Text("OSM").tag(MapProvider(url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", scaleFactor: 1, maxZoom: 19))
-                                        Text("Carto Dark").tag(MapProvider(url: "https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png", scaleFactor: 2, maxZoom: 30))
-                                        Text("Watercolor").tag(MapProvider(url: "http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg", scaleFactor: 1, maxZoom: 17))
-                                        Text("Google Maps").tag(MapProvider(url: "https://mts1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}&scale=2", scaleFactor: 2, maxZoom: 21)) // definitely authorized (sheepish smile). use at own risk
-                                        Text("Google Maps w/ Traffic").tag(MapProvider(url: "https://mts1.google.com/vt/lyrs=y,traffic,bike&x={x}&y={y}&z={z}&scale=2", scaleFactor: 2, maxZoom: 21)) // definitely authorized (sheepish smile). use at own risk
-                                        Text("The Duck Map").tag(MapProvider(url: "https://m.media-amazon.com/images/I/51VXgNZFIoL._AC_SX522_.jpg", scaleFactor: 2, maxZoom: 20))
+                                        Text("GC.com").tag(MapProvider(url: "https://maptiles.geocaching.com/tile/{z}/{x}/{y}@2x.png", name: "GC.com", scaleFactor: 2, maxZoom: 17))
+                                        Text("OSM").tag(MapProvider(url: "https://tile.openstreetmap.org/{z}/{x}/{y}.png", name: "OSM", scaleFactor: 1, maxZoom: 19))
+                                        Text("Carto Dark").tag(MapProvider(url: "https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}@2x.png", name: "Carto Dark", scaleFactor: 2, maxZoom: 30))
+                                        Text("Watercolor").tag(MapProvider(url: "http://tile.stamen.com/watercolor/{z}/{x}/{y}.jpg", name: "Watercolor", scaleFactor: 1, maxZoom: 17))
+                                        Text("Google Maps").tag(MapProvider(url: "https://mts1.google.com/vt/lyrs=r&x={x}&y={y}&z={z}&scale=2", name: "Google Maps", scaleFactor: 2, maxZoom: 21))
+                                        Text("Google Maps (Satellite)").tag(MapProvider(url: "https://mts1.google.com/vt/lyrs=y&x={x}&y={y}&z={z}&scale=2", name: "Google Maps (Satellite)", scaleFactor: 2, maxZoom: 21)) // definitely authorized (sheepish smile). use at own risk
+                                        Text("Google Maps (Satellite) w/ Traffic").tag(MapProvider(url: "https://mts1.google.com/vt/lyrs=y,traffic,bike&x={x}&y={y}&z={z}&scale=2", name: "Google Maps (Satellite) w/ Traffic", scaleFactor: 2, maxZoom: 21)) // definitely authorized (sheepish smile). use at own risk
+                                        Text("The Duck Map").tag(MapProvider(url: "https://m.media-amazon.com/images/I/51VXgNZFIoL._AC_SX522_.jpg", name: "The Duck Map", scaleFactor: 2, maxZoom: 20))
                                     })
                                     HStack {
                                         Text("Custom URL")
                                             .minimumScaleFactor(0.5)
                                         TextField("URL", text: Binding<String>(get: {
-                                            return TILESERVER_URL
+                                            return MAP_PROVIDER.url
                                         }, set: { url in
                                             Task.init {
                                                 do {
@@ -170,8 +170,8 @@ struct GeocacheMapView2: View {
                                                     if u != nil {
                                                         let data = try await getData(url: u!)
                                                         let uiIm = UIImage(data: data.1, scale: 1)
-                                                        scaleFactor = (uiIm?.size.width ?? 256) / TILE_SIZE
-                                                        TILESERVER_URL = url
+                                                        MAP_PROVIDER.scaleFactor = (uiIm?.size.width ?? 256) / TILE_SIZE
+                                                        MAP_PROVIDER.url = url
                                                     } else {
                                                         // url invalid, do nothing
                                                     }

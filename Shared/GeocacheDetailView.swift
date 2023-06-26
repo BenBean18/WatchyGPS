@@ -48,6 +48,23 @@ extension Int {
     }
 }
 
+#if os(iOS)
+import UIKit
+import WebKit
+// https://developer.apple.com/forums/thread/653935
+struct WebView: UIViewRepresentable {
+  @Binding var text: String
+   
+  func makeUIView(context: Context) -> WKWebView {
+    return WKWebView()
+  }
+   
+  func updateUIView(_ uiView: WKWebView, context: Context) {
+    uiView.loadHTMLString(text, baseURL: nil)
+  }
+}
+#endif
+
 struct GeocacheDetailView: View {
     @State private var logs: [Log] = []
     @State private var details: GeocacheDetails = GeocacheDetails()
@@ -134,9 +151,19 @@ struct GeocacheDetailView: View {
                 .foregroundColor(.gray)
                 Group {
                     if gotDetails {
+                        #if os(iOS)
+                        Text("double-tap to copy")
+                            .font(.footnote)
+                            .foregroundColor(.gray)
+                        #endif
                         Text(details.description)
                             .font(.body)
                             .padding(.bottom)
+                        #if os(iOS)
+                            .onTapGesture(count: 2, perform: {
+                                UIPasteboard.general.string = details.description
+                            })
+                        #endif
                         Text("\(details.hint)")
                             .font(.body)
                             .padding()

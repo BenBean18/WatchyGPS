@@ -15,7 +15,6 @@ import MapKit
 // Crop to fit
 
 let TILE_SIZE: CGFloat = 256.0
-var TILESERVER_MAX_Z: Int = 17
 
 // https://www.hackingwithswift.com/example-code/language/how-to-split-an-array-into-chunks
 extension Array {
@@ -141,7 +140,7 @@ struct MapView3<T>: View where T : View {
     
     @MainActor
     func update(newCenter: CLLocationCoordinate2D, geometry: GeometryProxy, zoom: CGFloat) {
-        let z = Int(round(zoom)) <= TILESERVER_MAX_Z ? Int(round(zoom)) : TILESERVER_MAX_Z
+        let z = Int(round(zoom)) <= MAP_PROVIDER.maxZoom ? Int(round(zoom)) : MAP_PROVIDER.maxZoom
         imArray = []
         tf = tilesFor(center: newCenter, screenWidth: Int(geometry.size.width), screenHeight: Int(geometry.size.height), tileSize: Int(TILE_SIZE), withZoom: z)
         tiles = tf!.tiles
@@ -181,10 +180,10 @@ struct MapView3<T>: View where T : View {
                             let (status, im) = try await tile.getImage()
                             if status == true {
                                 print("Request succeeded for tile \(tile)")
-                                previouslyLoadedTiles[tile] = im
+                                previouslyLoadedTiles[tile] = Image(uiImage: im)
                                 refresh.toggle()
                                 if tiles == oldTiles {
-                                    imArray[tile.y - sortedY[0].y][tile.x - sortedX[0].x] = AnyView(im.resizable().scaledToFit().aspectRatio(contentMode: .fit))
+                                     imArray[tile.y - sortedY[0].y][tile.x - sortedX[0].x] = AnyView(Image(uiImage: im).resizable().scaledToFit().aspectRatio(contentMode: .fit))
                                 }
                                 loadingTiles.remove(tile)
                             } else {
@@ -200,10 +199,10 @@ struct MapView3<T>: View where T : View {
     
     var subZoom: CGFloat {
         get {
-            if Int(round(z)) <= TILESERVER_MAX_Z {
+            if Int(round(z)) <= MAP_PROVIDER.maxZoom {
                 return pow(2, z - round(z))
             } else {
-                return pow(2, z - CGFloat(TILESERVER_MAX_Z))
+                return pow(2, z - CGFloat(MAP_PROVIDER.maxZoom))
             }
         }
     }
@@ -266,8 +265,8 @@ struct MapView3<T>: View where T : View {
                 }
                 .offset(x: -(TILE_SIZE-(geometry.size.width-TILE_SIZE)/2)-CGFloat(tf?.pos.x ?? 0)+TILE_SIZE/2-((CGFloat(tf?.offset.x ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE)), y: -(TILE_SIZE-(geometry.size.height-TILE_SIZE)/2)-(TILE_SIZE-CGFloat(tf?.pos.y ?? 0)-TILE_SIZE/2+((CGFloat(tf?.offset.y ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE))))
                 .scaleEffect(subZoom, anchor: anchor)
-//                .offset(x: (-(TILE_SIZE-(geometry.size.width*(Int(round(z)) > TILESERVER_MAX_Z ? 1/subZoom : 1)-TILE_SIZE)/2)-CGFloat(tf?.pos.x ?? 0)+TILE_SIZE/2-((CGFloat(tf?.offset.x ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE)))*(Int(round(z)) > TILESERVER_MAX_Z ? subZoom : 1), y: (-(TILE_SIZE-(geometry.size.height*(Int(round(z)) > TILESERVER_MAX_Z ? 1/subZoom : 1)-TILE_SIZE)/2)-(TILE_SIZE-CGFloat(tf?.pos.y ?? 0)-TILE_SIZE/2+((CGFloat(tf?.offset.y ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE))))*(Int(round(z)) > TILESERVER_MAX_Z ? subZoom : 1))
-//                .offset(x: Int(round(z)) > TILESERVER_MAX_Z ? 0 : -(TILE_SIZE-(geometry.size.width-TILE_SIZE)/2)-CGFloat(tf?.pos.x ?? 0)+TILE_SIZE/2-((CGFloat(tf?.offset.x ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE)), y: Int(round(z)) > TILESERVER_MAX_Z ? 0 : -(TILE_SIZE-(geometry.size.height-TILE_SIZE)/2)-(TILE_SIZE-CGFloat(tf?.pos.y ?? 0)-TILE_SIZE/2+((CGFloat(tf?.offset.y ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE))))
+//                .offset(x: (-(TILE_SIZE-(geometry.size.width*(Int(round(z)) > MAP_PROVIDER.maxZoom ? 1/subZoom : 1)-TILE_SIZE)/2)-CGFloat(tf?.pos.x ?? 0)+TILE_SIZE/2-((CGFloat(tf?.offset.x ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE)))*(Int(round(z)) > MAP_PROVIDER.maxZoom ? subZoom : 1), y: (-(TILE_SIZE-(geometry.size.height*(Int(round(z)) > MAP_PROVIDER.maxZoom ? 1/subZoom : 1)-TILE_SIZE)/2)-(TILE_SIZE-CGFloat(tf?.pos.y ?? 0)-TILE_SIZE/2+((CGFloat(tf?.offset.y ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE))))*(Int(round(z)) > MAP_PROVIDER.maxZoom ? subZoom : 1))
+//                .offset(x: Int(round(z)) > MAP_PROVIDER.maxZoom ? 0 : -(TILE_SIZE-(geometry.size.width-TILE_SIZE)/2)-CGFloat(tf?.pos.x ?? 0)+TILE_SIZE/2-((CGFloat(tf?.offset.x ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE)), y: Int(round(z)) > MAP_PROVIDER.maxZoom ? 0 : -(TILE_SIZE-(geometry.size.height-TILE_SIZE)/2)-(TILE_SIZE-CGFloat(tf?.pos.y ?? 0)-TILE_SIZE/2+((CGFloat(tf?.offset.y ?? 0)-CGFloat(1))*CGFloat(TILE_SIZE))))
                 GeometryReader { geo in
                     ZStack {
                         ForEach(annotationItems, id: \.id) { item in
@@ -315,8 +314,8 @@ struct MapView3<T>: View where T : View {
                 MagnificationGesture()
                     .onChanged { amount in
                         let newZ = oldZ + log2(amount)
-//                        if Int(round(newZ)) > TILESERVER_MAX_Z+3 {
-//                            newZ = CGFloat(TILESERVER_MAX_Z+3)
+//                        if Int(round(newZ)) > MAP_PROVIDER.maxZoom+3 {
+//                            newZ = CGFloat(MAP_PROVIDER.maxZoom+3)
 //                        }
 //                        if newZ < 0 {
 //                            newZ = 0
@@ -326,7 +325,7 @@ struct MapView3<T>: View where T : View {
                         anchor = UnitPoint(x: geometry.frame(in: .named("Map")).midX / (mapProxy?.size.width ?? 1), y: geometry.frame(in: .named("Map")).midY / (mapProxy?.size.height ?? 1))
                     }
                     .onEnded { amount in
-                        //z = round(z) > CGFloat(TILESERVER_MAX_Z) ? z : round(z)
+                        //z = round(z) > CGFloat(MAP_PROVIDER.maxZoom) ? z : round(z)
                         oldZ = z
 //                        var newZ = CGFloat(z) + log2(amount)
 //                        if newZ > 18 {
@@ -346,9 +345,9 @@ struct MapView3<T>: View where T : View {
                 z = newZ
                 update(newCenter: center, geometry: geometry, zoom: z)
                 anchor = UnitPoint(x: geometry.frame(in: .named("Map")).midX / (mapProxy?.size.width ?? 1), y: geometry.frame(in: .named("Map")).midY / (mapProxy?.size.height ?? 1))
-            }), from: 0, through: Double(TILESERVER_MAX_Z+3), by: 1, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
+            }), from: 0, through: Double(MAP_PROVIDER.maxZoom+3), by: 1, sensitivity: .low, isContinuous: false, isHapticFeedbackEnabled: true)
             #endif
-            .onChange(of: TILESERVER_URL, perform: { _ in
+            .onChange(of: MAP_PROVIDER.url, perform: { _ in
                 previouslyLoadedTiles = [:]
             })
             .onChange(of: center, perform: { _ in

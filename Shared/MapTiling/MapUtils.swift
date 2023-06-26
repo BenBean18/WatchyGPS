@@ -61,20 +61,19 @@ var height      = abs(top_tile - bottom_tile) + 1;
 // total tiles
 var total_tiles = width * height; // -> eg. 377
 
-var TILESERVER_URL = "https://maptiles.geocaching.com/tile/{z}/{x}/{y}@2x.png"
-var scaleFactor: CGFloat = 2
+var MAP_PROVIDER = MapProvider(url: "https://maptiles.geocaching.com/tile/{z}/{x}/{y}@2x.png", name: "GC.com", scaleFactor: 2, maxZoom: 17)
 
 struct Tile: Hashable, Equatable {
     var x: Int
     var y: Int
     var z: Int
-    func getImage() async throws -> (Bool, Image) {
+    func getImage() async throws -> (Bool, UIImage) {
         //let data = try await getData(url: URL(string: "https://tile.openstreetmap.org/\(z)/\(x)/\(y).png")!)
-        let url = URL(string: TILESERVER_URL.replacingOccurrences(of: "{z}", with: "\(z)").replacingOccurrences(of: "{x}", with: "\(x)").replacingOccurrences(of: "{y}", with: "\(y)"))!
+        let url = URL(string: MAP_PROVIDER.url.replacingOccurrences(of: "{z}", with: "\(z)").replacingOccurrences(of: "{x}", with: "\(x)").replacingOccurrences(of: "{y}", with: "\(y)"))!
         //let data = try Data(contentsOf: url)
         let (_, data) = try await getData(url: url)
-        let uiIm = UIImage(data: data, scale: scaleFactor)
-        return (uiIm != nil, Image(uiImage: (uiIm ?? UIImage(systemName: "exclamationmark.triangle.fill")!)))
+        let uiIm = UIImage(data: data, scale: MAP_PROVIDER.scaleFactor)
+        return (uiIm != nil, uiIm ?? UIImage(systemName: "exclamationmark.triangle.fill")!)
     }
 }
 

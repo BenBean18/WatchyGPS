@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B623225928822FAA00AFE1A3 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0516E287F0564007A4CD0 /* CompassView.swift */; };
+		31290EE02A49BA5200459913 /* CompassView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6D0516E287F0564007A4CD0 /* CompassView.swift */; };
+		31290EE22A49BDB600459913 /* TileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31290EE12A49BDB600459913 /* TileCache.swift */; };
+		31290EE32A49BDB600459913 /* TileCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31290EE12A49BDB600459913 /* TileCache.swift */; };
 		B623225B28823B4100AFE1A3 /* GeocacheIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623225A28823B4100AFE1A3 /* GeocacheIcons.swift */; };
 		B623225C28823B4100AFE1A3 /* GeocacheIcons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623225A28823B4100AFE1A3 /* GeocacheIcons.swift */; };
 		B623225E288434AB00AFE1A3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B623225D288434AB00AFE1A3 /* MainView.swift */; };
@@ -108,6 +110,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		31290EE12A49BDB600459913 /* TileCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCache.swift; sourceTree = "<group>"; };
 		B600ED512889AF5300D41790 /* libswift_Concurrency.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswift_Concurrency.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/lib/swift/libswift_Concurrency.tbd; sourceTree = DEVELOPER_DIR; };
 		B600ED532889AF8C00D41790 /* libswiftFoundation.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libswiftFoundation.tbd; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS15.5.sdk/usr/lib/swift/libswiftFoundation.tbd; sourceTree = DEVELOPER_DIR; };
 		B623225A28823B4100AFE1A3 /* GeocacheIcons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheIcons.swift; sourceTree = "<group>"; };
@@ -188,6 +191,7 @@
 				B643F5D92891F9D0005DABFD /* MapView2.swift */,
 				B62C778D2892CBE300739E16 /* MapView3.swift */,
 				B672C4432891CB3500D762BD /* MapUtils.swift */,
+				31290EE12A49BDB600459913 /* TileCache.swift */,
 			);
 			path = MapTiling;
 			sourceTree = "<group>";
@@ -429,6 +433,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31290EE22A49BDB600459913 /* TileCache.swift in Sources */,
+				31290EE02A49BA5200459913 /* CompassView.swift in Sources */,
 				B68DF0002886E79000C1EA12 /* Icons.swift in Sources */,
 				B6D0516D287EFCC6007A4CD0 /* Utilities.swift in Sources */,
 				B623225B28823B4100AFE1A3 /* GeocacheIcons.swift in Sources */,
@@ -443,7 +449,6 @@
 				B623225E288434AB00AFE1A3 /* MainView.swift in Sources */,
 				B68DF008288713EA00C1EA12 /* PreviewView.swift in Sources */,
 				B6D05173287F1B00007A4CD0 /* LocationDelegate.swift in Sources */,
-				B623225928822FAA00AFE1A3 /* CompassView.swift in Sources */,
 				B62983E62889EBC400007D3B /* LogView.swift in Sources */,
 				B652788A2880DEFD000770C4 /* GeocachingCom.swift in Sources */,
 				B643F5D72891E7BF005DABFD /* MapView.swift in Sources */,
@@ -466,6 +471,7 @@
 				B6D05152287EFC30007A4CD0 /* NotificationController.swift in Sources */,
 				B6D05150287EFC30007A4CD0 /* ContentView.swift in Sources */,
 				B68DF0062887138E00C1EA12 /* PreviewViewWatch.swift in Sources */,
+				31290EE32A49BDB600459913 /* TileCache.swift in Sources */,
 				B6D05156287EFC30007A4CD0 /* ComplicationController.swift in Sources */,
 				B65278942880E979000770C4 /* GeocachingJSON.swift in Sources */,
 				B68DEFFB2884395C00C1EA12 /* GeocacheMapView.swift in Sources */,

@@ -64,17 +64,17 @@ struct CompassView: View {
             ZStack(alignment: .center) {
                 ZStack {
                     Capsule()
-                        .frame(width: 3, height: min(geometry.size.width, geometry.size.height) * 0.36)
-                        .padding(.bottom, min(geometry.size.width, geometry.size.height) * 0.36 + 8)
+                        .frame(width: 3, height: min(geometry.size.width, geometry.size.height) * 0.32)
+                        .padding(.bottom, min(geometry.size.width, geometry.size.height) * 0.32 + geometry.size.width * 0.09)
                         .rotationEffect(Angle.degrees(angle))
                         .foregroundColor(.red)
                     Circle()
-                        .stroke(AngularGradient(gradient: Gradient(stops: [Gradient.Stop(color: colorScheme == .dark ? .white : .black, location: 0), Gradient.Stop(color: colorScheme == .dark ? .white : .black, location: 0.5), Gradient.Stop(color: .red, location: 0.5), Gradient.Stop(color: .red, location: 1)]), center: .center), style: StrokeStyle(lineWidth: 2, lineCap: .round, lineJoin: .miter, miterLimit: 1, dash: [0], dashPhase: 1))
-                        .frame(width: 10, height: 10)
+                        .stroke(AngularGradient(gradient: Gradient(stops: [Gradient.Stop(color: colorScheme == .dark ? .white : .black, location: 0), Gradient.Stop(color: colorScheme == .dark ? .white : .black, location: 0.5), Gradient.Stop(color: .red, location: 0.5), Gradient.Stop(color: .red, location: 1)]), center: .center), style: StrokeStyle(lineWidth: 3, lineCap: .round, lineJoin: .miter, miterLimit: 1, dash: [0], dashPhase: 1))
+                        .frame(width: geometry.size.width * 0.09)
                         .rotationEffect(Angle.degrees(angle))
                     Capsule()
-                        .frame(width: 3, height: min(geometry.size.width, geometry.size.height) * 0.36)
-                        .padding(.top, min(geometry.size.width, geometry.size.height) * 0.36 + 8)
+                        .frame(width: 3, height: min(geometry.size.width, geometry.size.height) * 0.32)
+                        .padding(.top, min(geometry.size.width, geometry.size.height) * 0.32 + geometry.size.width * 0.09)
                         .rotationEffect(Angle.degrees(angle))
                         .foregroundColor(colorScheme == .dark ? .white : .black)
                 }
