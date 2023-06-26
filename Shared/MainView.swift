@@ -13,12 +13,8 @@ struct MainView: View {
     var body: some View {
         TabView {
             NavigationView {
-//                GeocacheMapView()
-//                    .edgesIgnoringSafeArea([.horizontal, .top])
-//                    .navigationBarHidden(true)
                 GeometryReader { geometry in
-//                    MapView3(annotationItems: [MapTileAnnotation(coords: CLLocationCoordinate2D(), data: GeocacheDetailView().cache)])
-                    GeocacheMapView2(geocaches: $geocaches)
+                    GeocacheMapView(geocaches: $geocaches)
                         .edgesIgnoringSafeArea([.horizontal, .top])
                         .navigationBarHidden(true)
                         //.frame(width: geometry.size.width, height: geometry.size.height)
