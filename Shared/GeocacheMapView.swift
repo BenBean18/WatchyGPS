@@ -89,7 +89,7 @@ struct GeocacheMapView: View {
     @State var showDetailView: Bool = false
     @State var settingsPresented: Bool = false
     @State var maxGeocaches: Double = 100
-    @State var caching: Bool = true
+    @State var caching: Bool = false
     @State var cacheCleared: Bool = false
     var body: some View {
         Group {
