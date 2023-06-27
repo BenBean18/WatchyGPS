@@ -84,6 +84,7 @@ struct MapView<T>: View where T : View {
     @Binding var center: CLLocationCoordinate2D
     @Binding var userLocation: CLLocation?
     @Binding var userHeading: CLHeading?
+    @Binding var caching: Bool
     var annotationContent: (MapTileAnnotation) -> T
     @State var oldZ: CGFloat = 0
     @State var tiles: [Tile] = []
@@ -180,6 +181,9 @@ struct MapView<T>: View where T : View {
                             let (status, im) = try await tile.getImage()
                             if status == true {
                                 print("Request succeeded for tile \(tile)")
+                                if caching {
+                                    TileCache.shared.addTileToCache(tile: tile, image: im)
+                                }
                                 previouslyLoadedTiles[tile] = Image(uiImage: im)
                                 refresh.toggle()
                                 if tiles == oldTiles {
@@ -466,6 +470,6 @@ struct MapView<T>: View where T : View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(annotationItems: [MapTileAnnotation(coords: CLLocationCoordinate2D(), data: GeocacheDetailView().cache)], z: .constant(16), center: .constant(CLLocationCoordinate2D()), userLocation: .constant(CLLocation()), userHeading: .constant(nil), annotationContent: { _ in EmptyView() })
+         MapView(annotationItems: [MapTileAnnotation(coords: CLLocationCoordinate2D(), data: GeocacheDetailView().cache)], z: .constant(16), center: .constant(CLLocationCoordinate2D()), userLocation: .constant(CLLocation()), userHeading: .constant(nil), caching: .constant(false), annotationContent: { _ in EmptyView() })
     }
 }

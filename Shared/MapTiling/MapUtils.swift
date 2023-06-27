@@ -68,11 +68,14 @@ struct Tile: Hashable, Equatable {
     var y: Int
     var z: Int
     func getImage() async throws -> (Bool, UIImage) {
-        //let data = try await getData(url: URL(string: "https://tile.openstreetmap.org/\(z)/\(x)/\(y).png")!)
-        let url = URL(string: MAP_PROVIDER.url.replacingOccurrences(of: "{z}", with: "\(z)").replacingOccurrences(of: "{x}", with: "\(x)").replacingOccurrences(of: "{y}", with: "\(y)"))!
-        //let data = try Data(contentsOf: url)
-        let (_, data) = try await getData(url: url)
-        let uiIm = UIImage(data: data, scale: MAP_PROVIDER.scaleFactor)
+        var uiIm = TileCache.shared.retrieveTileFromCache(tile: self)
+        if uiIm == nil {
+            //let data = try await getData(url: URL(string: "https://tile.openstreetmap.org/\(z)/\(x)/\(y).png")!)
+            let url = URL(string: MAP_PROVIDER.url.replacingOccurrences(of: "{z}", with: "\(z)").replacingOccurrences(of: "{x}", with: "\(x)").replacingOccurrences(of: "{y}", with: "\(y)"))!
+            //let data = try Data(contentsOf: url)
+            let (_, data) = try await getData(url: url)
+            uiIm = UIImage(data: data, scale: MAP_PROVIDER.scaleFactor)
+        }
         return (uiIm != nil, uiIm ?? UIImage(systemName: "exclamationmark.triangle.fill")!)
     }
 }

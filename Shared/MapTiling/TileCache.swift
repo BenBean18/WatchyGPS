@@ -48,22 +48,37 @@ class TileCache {
     }
     
     func addTileToCache(tile: Tile, image: UIImage) {
-        let fileURL = documentsDirectory.appendingPathExtension("\(MAP_PROVIDER.name.convertedToSlug())/\(tile.z)/\(tile.x)-\(tile.y).png")
+        let directory = documentsDirectory.appendingPathComponent("tiles/\(MAP_PROVIDER.name.convertedToSlug())/\(tile.z)", isDirectory: true)
+        let fileURL = directory.appendingPathComponent("\(tile.x)-\(tile.y).png")
+        do {
+            try FileManager.default.createDirectory(at: directory, withIntermediateDirectories: true, attributes: nil)
+        } catch let error as NSError {
+            print("Directory creation failed: \(error)")
+        }
         do {
             try image.pngData()?.write(to: fileURL)
         } catch {
-            print("Failed to cache image")
+            print("Failed to cache image to \(fileURL): \(error)")
         }
     }
     
-    func retrieveTileFromCache(tile: Tile) -> UIImage {
-        let fileURL = documentsDirectory.appendingPathExtension("\(MAP_PROVIDER.name.convertedToSlug())/\(tile.z)/\(tile.x)-\(tile.y).png")
-        var uiImage: UIImage = UIImage(systemName: "exclamationmark.triangle.fill")!
+    func retrieveTileFromCache(tile: Tile) -> UIImage? {
+        let fileURL = documentsDirectory.appendingPathComponent("tiles/\(MAP_PROVIDER.name.convertedToSlug())/\(tile.z)/\(tile.x)-\(tile.y).png")
         do {
-            uiImage = try UIImage(data: Data(contentsOf: fileURL))!
+            return try UIImage(data: Data(contentsOf: fileURL), scale: MAP_PROVIDER.scaleFactor)!
         } catch {
-            // do nothing, image is already the default /!\
+            return nil
         }
-        return uiImage
+    }
+    
+    func clearTileCache() -> Bool {
+        do {
+            try FileManager.default.removeItem(at: documentsDirectory.appendingPathComponent("tiles", isDirectory: true))
+            print("Cache cleared")
+            return true
+        } catch {
+            print("Failed to clear cache: \(error)")
+            return false
+        }
     }
 }

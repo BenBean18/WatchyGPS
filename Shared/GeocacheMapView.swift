@@ -89,13 +89,15 @@ struct GeocacheMapView: View {
     @State var showDetailView: Bool = false
     @State var settingsPresented: Bool = false
     @State var maxGeocaches: Double = 100
+    @State var caching: Bool = true
+    @State var cacheCleared: Bool = false
     var body: some View {
         Group {
             ZStack {
                 if !hasRegion {
                     NavigationLink(destination: detailView, isActive: $showDetailView, label: { EmptyView() })
                         .hidden()
-                    MapView(annotationItems: geocaches.map { geocache in MapTileAnnotation(coords: CLLocationCoordinate2D(latitude: geocache.postedCoordinates.latitude, longitude: geocache.postedCoordinates.longitude), data: geocache) }, z: $z, center: $center, userLocation: $location, userHeading: $heading) { annot in
+                    MapView(annotationItems: geocaches.map { geocache in MapTileAnnotation(coords: CLLocationCoordinate2D(latitude: geocache.postedCoordinates.latitude, longitude: geocache.postedCoordinates.longitude), data: geocache) }, z: $z, center: $center, userLocation: $location, userHeading: $heading, caching: $caching) { annot in
                         GCIcon(gc: annot.data as! Geocache, detailView: $detailView, showDetailView: $showDetailView)
 //                        AnyView(//NavigationLink {
 //                            //GeocacheDetailView(cache: annot.data as! Geocache)
@@ -124,7 +126,7 @@ struct GeocacheMapView: View {
                 }
                 VStack {
                     HStack {
-                        Text("Reload")
+                        Text("R")
                             .font(.footnote)
                             .foregroundColor(.primary)
                             .padding()
@@ -138,6 +140,19 @@ struct GeocacheMapView: View {
                                 }
                             }
                         Spacer()
+                        Text("\(cacheCleared ? "! " : "")C \(caching ? "on" : "off")")
+                            .font(.footnote)
+                            .foregroundColor(.primary)
+                            .padding()
+                            .background(Color.gray.opacity(0.75))
+                            .cornerRadius(8)
+                            .onTapGesture {
+                                caching = !caching
+                                cacheCleared = false
+                            }
+                            .onLongPressGesture {
+                                cacheCleared = TileCache.shared.clearTileCache()
+                            }
                         Button {
                             settingsPresented = true
                         } label: {
