@@ -49,12 +49,21 @@ struct GeocacheListView: View {
     
     var body: some View {
         VStack {
-            Picker("Sort by", selection: $sort) {
-                ForEach(sortingMethods, id: \.self) {
-                    Text("\($0)")
+            HStack {
+                Text("Sort by")
+                    .foregroundColor(.secondary)
+                Picker("Sort by", selection: $sort) {
+                    ForEach(sortingMethods, id: \.self) {
+                        Text("\($0)")
+                            .foregroundColor(.primary)
+                    }
                 }
+                .pickerStyle(.automatic)
+                .foregroundColor(.primary)
+                .accentColor(.primary)
+                Spacer()
             }
-            .pickerStyle(.automatic)
+            .padding()
             List {
                 if geocaches.count == 0 {
                     Text(downloadingCaches ? "Loading geocaches..." : "No geocaches found 😥")
