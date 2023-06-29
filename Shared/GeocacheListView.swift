@@ -36,13 +36,13 @@ struct GeocacheListView: View {
         var sortFunc: ((Geocache, Geocache) -> Bool)? = nil
         switch sort {
         case "distance":
-            sortFunc = { $0.distance < $1.distance } // this won't actually work, need to use GPS position
+            sortFunc = { distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $0.postedCoordinates.latitude, longitude: $0.postedCoordinates.longitude)) < distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $1.postedCoordinates.latitude, longitude: $1.postedCoordinates.longitude)) }
         case "favorites":
             sortFunc = { $0.favoritePoints > $1.favoritePoints }
         case "TBs":
             sortFunc = { $0.trackableCount > $1.trackableCount }
         default:
-            sortFunc = { $0.distance < $1.distance } // this won't actually work, need to use GPS position
+            sortFunc = { distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $0.postedCoordinates.latitude, longitude: $0.postedCoordinates.longitude)) < distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $1.postedCoordinates.latitude, longitude: $1.postedCoordinates.longitude)) }
         }
         geocaches.sort(by: sortFunc!)
     }
