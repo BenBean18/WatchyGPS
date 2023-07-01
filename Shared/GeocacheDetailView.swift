@@ -121,6 +121,15 @@ struct GeocacheDetailView: View {
                     }
                     Spacer()
                     HStack(spacing: 1) {
+                        Image(systemName: "ladybug")
+                            .padding(.trailing, 1)
+                            .fixedSize()
+                            .lineLimit(1)
+                        Text("\(cache.trackableCount)")
+                            .minimumScaleFactor(0.8)
+                    }
+                    Spacer()
+                    HStack(spacing: 1) {
                         Image(systemName: "heart")
                             .padding(.trailing, 1)
                             .fixedSize()
