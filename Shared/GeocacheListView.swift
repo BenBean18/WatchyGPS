@@ -63,7 +63,7 @@ struct GeocacheListView: View {
                 .accentColor(.primary)
                 Spacer()
             }
-            .padding()
+            .padding([.horizontal])
             List {
                 if geocaches.count == 0 {
                     Text(downloadingCaches ? "Loading geocaches..." : "No geocaches found 😥")
@@ -85,6 +85,7 @@ struct GeocacheListView: View {
                         (geocaches, success) = await getGeocachesFromJSON(centeredAt: location!, radius: 10000, maxNumber: 100)
                         downloadingCaches = false
                     }
+                    sortGeocaches()
                 }
             }))
             .toolbar {
@@ -97,6 +98,7 @@ struct GeocacheListView: View {
                                 (geocaches, success) = await getGeocachesFromJSON(centeredAt: location!, radius: 10000, maxNumber: 100)
                                 downloadingCaches = false
                             }
+                            sortGeocaches()
                         }
                     } label: {
                         Text("Reload")

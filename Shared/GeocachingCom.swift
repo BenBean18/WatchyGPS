@@ -195,17 +195,35 @@ func postData(url: URL, body: Data?, headerFields: [String : String]) async thro
 //    var bearing: String
 //}
 
+struct Trackable {
+    var name: String
+    var iconURL: URL? = nil
+    var lastLogDate: Date
+    var owner: Owner
+    var location: URL? = nil
+    var distance: Double // in kilometers
+    var detailsURL: URL? = nil
+    init() {
+        name = ""
+        lastLogDate = Date()
+        owner = Owner(code: "", username: "")
+        distance = 0
+    }
+}
+
 struct GeocacheDetails {
     var id = UUID()
     var description: String
     var hint: String
     var waypoints: [Waypoint]
     var getLogs: (Int) async throws -> [Log]
+    var getTBs: () async throws -> [Trackable]
     init() {
         self.description = ""
         self.hint = ""
         self.waypoints = []
         self.getLogs = { _ in return [] }
+        self.getTBs = { return [] }
     }
 }
 
@@ -292,4 +310,60 @@ func getDetails(url: URL = URL(string: "http://localhost/TestGeocacheDetails.htm
         }
     }
     return details
+}
+
+let PATTERN_TBNAME = "track/details\\.aspx[^>]+>([^<]+)</a>"
+let PATTERN_TBROW = "(?s)<tr[^>]*>\n                <td>(.+?)<\\/tr>"
+let PATTERN_TBICON = "<img src='(https:\\/\\/www\\.geocaching.com\\/images\\/WptTypes\\/[^']+)"
+let PATTERN_TBDATE = "([\\d]+)\\/([\\d]+)\\/([\\d]+)"
+let PATTERN_TBOWNER = "\\/p\\/\\?guid=([^\"]+)\">([^<]+)"
+let PATTERN_TBDISTKM = "(\\d+) km"
+let PATTERN_TBDISTMI = "(\\d+) mi"
+let PATTERN_TBDETAILS = "<a href=\"(https:\\/\\/www\\.geocaching\\.com\\/track\\/details\\.aspx\\?[^\"]+)"
+
+// format: https://www.geocaching.com/track/search.aspx?code=GCCODE
+func getTBs(url: URL = URL(string: "https://www.geocaching.com/track/search.aspx?code=GC40")!) async throws -> [Trackable] {
+    //let (_, data) = try await postDatta((ur))
+    return []
+}
+
+func getTBsOnPage(html: String) -> [Trackable] {
+    let groups = html.groups(for: "(?s)<tr[^>]*>\n                <td>(.+?)<\\/tr>")
+    var trackables: [Trackable] = []
+    for group in groups {
+        var trackable = Trackable()
+
+        trackable.name = group[1].groups(for: PATTERN_TBNAME)[0][1]
+
+        trackable.iconURL = URL(string: group[1].groups(for: PATTERN_TBICON)[0][1])!
+
+        let dateGroups = group[1].groups(for: PATTERN_TBDATE)[0]
+        var dateComponents = DateComponents()
+        dateComponents.year = Int(dateGroups[3])
+        dateComponents.month = Int(dateGroups[1])
+        dateComponents.day = Int(dateGroups[2])
+        let userCalendar = Calendar(identifier: .gregorian)
+        trackable.lastLogDate = userCalendar.date(from: dateComponents)!
+
+        let ownerGroups = group[1].groups(for: PATTERN_TBOWNER)[0]
+        trackable.owner.code = ownerGroups[1]
+        trackable.owner.username = ownerGroups[2]
+
+        // no location for right now. if you need it do something like this (?s)\/td.+?\/td.+?\/td.+?\/td>.+?<a
+
+        let kmGroups = group[1].groups(for: PATTERN_TBDISTKM)
+        let miGroups = group[1].groups(for: PATTERN_TBDISTMI)
+        if kmGroups.count > 0 {
+            trackable.distance = Double(kmGroups[0][1])!
+        } else if miGroups.count > 0 {
+            trackable.distance = Double(miGroups[0][1])! * 1.609344
+        } else {
+            trackable.distance = Double.nan // wat
+        }
+
+        trackable.detailsURL = URL(string: group[1].groups(for: PATTERN_TBDETAILS)[0][1])!
+
+        trackables.append(trackable)
+    }
+    return trackables
 }
