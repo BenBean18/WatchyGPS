@@ -320,11 +320,21 @@ let PATTERN_TBOWNER = "\\/p\\/\\?guid=([^\"]+)\">([^<]+)"
 let PATTERN_TBDISTKM = "(\\d+) km"
 let PATTERN_TBDISTMI = "(\\d+) mi"
 let PATTERN_TBDETAILS = "<a href=\"(https:\\/\\/www\\.geocaching\\.com\\/track\\/details\\.aspx\\?[^\"]+)"
+let PATTERN_TBPAGES = "<b>(\\d+)<\\/b>&nbsp;"
 
 // format: https://www.geocaching.com/track/search.aspx?code=GCCODE
 func getTBs(url: URL = URL(string: "https://www.geocaching.com/track/search.aspx?code=GC40")!) async throws -> [Trackable] {
-    //let (_, data) = try await postDatta((ur))
-    return []
+    let (_, data) = try await postData(url: url, body: "__EVENTTARGET=ctl00$ContentBody$ResultsPager$lbGoToPage_1".data(using: .utf8), headerFields: [:])
+    let html = String(decoding: data, as: UTF8.self)
+    let pages = Int(html.groups(for: PATTERN_TBPAGES)[0][1]) ?? 1
+    var trackables: [Trackable] = []
+    for page in 1...pages {
+        print("Retrieving page \(page)")
+        let (_, pageData) = try await postData(url: url, body: "__EVENTTARGET=ctl00$ContentBody$ResultsPager$lbGoToPage_\(page)".data(using: .utf8), headerFields: [:])
+        let pageHTML = String(decoding: pageData, as: UTF8.self)
+        trackables += getTBsOnPage(html: pageHTML)
+    }
+    return trackables
 }
 
 func getTBsOnPage(html: String) -> [Trackable] {
