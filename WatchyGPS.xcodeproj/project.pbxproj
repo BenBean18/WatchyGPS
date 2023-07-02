@@ -36,6 +36,8 @@
 		B65278A128818F46000770C4 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B652789F28818F46000770C4 /* SignInView.swift */; };
 		B672C4442891CB3500D762BD /* MapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672C4432891CB3500D762BD /* MapUtils.swift */; };
 		B672C4452891CB3500D762BD /* MapUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B672C4432891CB3500D762BD /* MapUtils.swift */; };
+		B68D00722A51A3DE009BE7E2 /* TrackableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D00712A51A3DE009BE7E2 /* TrackableListView.swift */; };
+		B68D00732A51A3DE009BE7E2 /* TrackableListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68D00712A51A3DE009BE7E2 /* TrackableListView.swift */; };
 		B68DEFFE2884A07A00C1EA12 /* GeocacheDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFFC2884A07A00C1EA12 /* GeocacheDetailView.swift */; };
 		B68DF0002886E79000C1EA12 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFFF2886E79000C1EA12 /* Icons.swift */; };
 		B68DF0012886E79000C1EA12 /* Icons.swift in Sources */ = {isa = PBXBuildFile; fileRef = B68DEFFF2886E79000C1EA12 /* Icons.swift */; };
@@ -122,6 +124,7 @@
 		B652789B28818CFE000770C4 /* GeocacheListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheListView.swift; sourceTree = "<group>"; };
 		B652789F28818F46000770C4 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		B672C4432891CB3500D762BD /* MapUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapUtils.swift; sourceTree = "<group>"; };
+		B68D00712A51A3DE009BE7E2 /* TrackableListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackableListView.swift; sourceTree = "<group>"; };
 		B68DEFFC2884A07A00C1EA12 /* GeocacheDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeocacheDetailView.swift; sourceTree = "<group>"; };
 		B68DEFFF2886E79000C1EA12 /* Icons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icons.swift; sourceTree = "<group>"; };
 		B68DF0042887138E00C1EA12 /* PreviewViewWatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewWatch.swift; sourceTree = "<group>"; };
@@ -284,6 +287,7 @@
 				B6D0516E287F0564007A4CD0 /* CompassView.swift */,
 				B652789F28818F46000770C4 /* SignInView.swift */,
 				B65278982880F5D4000770C4 /* Assets.xcassets */,
+				B68D00712A51A3DE009BE7E2 /* TrackableListView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -433,6 +437,7 @@
 				B6D05135287EFC2D007A4CD0 /* ContentView.swift in Sources */,
 				B652789C28818CFE000770C4 /* GeocacheListView.swift in Sources */,
 				B672C4442891CB3500D762BD /* MapUtils.swift in Sources */,
+				B68D00722A51A3DE009BE7E2 /* TrackableListView.swift in Sources */,
 				B65278A028818F46000770C4 /* SignInView.swift in Sources */,
 				B62C778E2892CBE300739E16 /* MapView.swift in Sources */,
 				B6D05133287EFC2D007A4CD0 /* WatchyGPSApp.swift in Sources */,
@@ -460,6 +465,7 @@
 				B6D05150287EFC30007A4CD0 /* ContentView.swift in Sources */,
 				B68DF0062887138E00C1EA12 /* PreviewViewWatch.swift in Sources */,
 				31290EE32A49BDB600459913 /* TileCache.swift in Sources */,
+				B68D00732A51A3DE009BE7E2 /* TrackableListView.swift in Sources */,
 				B6D05156287EFC30007A4CD0 /* ComplicationController.swift in Sources */,
 				B65278942880E979000770C4 /* GeocachingJSON.swift in Sources */,
 				B652789D28818CFE000770C4 /* GeocacheListView.swift in Sources */,

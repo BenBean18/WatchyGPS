@@ -158,6 +158,11 @@ struct GeocacheDetailView: View {
                 .font(.footnote)
                 .lineLimit(1)
                 .foregroundColor(.gray)
+                NavigationLink {
+                    TrackableListView(trackables: .constant(getTBs(url = URL(string: "https://www.geocaching.com/track/search.aspx?code=\(cache.code)")!)))
+                } label: {
+                    Text("Trackables!")
+                }
                 Group {
                     if gotDetails {
                         #if os(iOS)

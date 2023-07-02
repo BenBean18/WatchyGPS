@@ -9,14 +9,13 @@ import SwiftUI
 
 struct PreviewViewWatch: View {
     var body: some View {
-        Group {
-            CompassView()
-        }
+        TrackableListView_Previews.previews
     }
 }
 
 struct PreviewViewWatch_Previews: PreviewProvider {
     static var previews: some View {
         PreviewViewWatch()
+            .previewDevice(PreviewDevice(rawValue: "Apple Watch Series 8 (45mm)"))
     }
 }

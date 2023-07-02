@@ -196,6 +196,7 @@ func postData(url: URL, body: Data?, headerFields: [String : String]) async thro
 //}
 
 struct Trackable {
+    var id = UUID()
     var name: String
     var iconURL: URL? = nil
     var lastLogDate: Date
@@ -203,6 +204,9 @@ struct Trackable {
     var location: URL? = nil
     var distance: Double // in kilometers
     var detailsURL: URL? = nil
+}
+
+extension Trackable {
     init() {
         name = ""
         lastLogDate = Date()
