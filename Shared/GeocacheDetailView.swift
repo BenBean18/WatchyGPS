@@ -72,6 +72,7 @@ struct GeocacheDetailView: View {
     var cache: Geocache = Geocache(id: 5, name: "Endangered Geocacheeeeeeeeeeeabcdefghijklmnopqrstuvwxyz123456789 long geocache name", code: "GC4ZYQ3", premiumOnly: false, favoritePoints: 999, geocacheType: 2, containerType: 3, difficulty: 1.5, terrain: 2.5, userFound: true, userDidNotFind: false, cacheStatus: 0, postedCoordinates: Coordinates(latitude: 1.5, longitude: 1.5), detailsUrl: "%*@(%&@&_@84018!!!!!4375028.....:", hasGeotour: true, hasLogDraft: true, placedDate: "date1", owner: Owner(code: "abc", username: "def"), lastFoundDate: "2022-03-27T14:05:22", trackableCount: 5, region: "NC", country: "US", attributes: [Attribute(id: 5, name: "hi", isApplicable: true)], hasCallerNote: true, distance: "5", bearing: "E")
     @State private var hintTapped: Bool = false
     @State private var idx: Int = 1
+    @State private var trackables: [Trackable] = []
     var body: some View {
         ScrollView {
             VStack {
@@ -159,7 +160,7 @@ struct GeocacheDetailView: View {
                 .lineLimit(1)
                 .foregroundColor(.gray)
                 NavigationLink {
-                    TrackableListView(trackables: .constant(getTBs(url = URL(string: "https://www.geocaching.com/track/search.aspx?code=\(cache.code)")!)))
+                    TrackableListView(trackables: $trackables)
                 } label: {
                     Text("Trackables!")
                 }
@@ -222,6 +223,8 @@ struct GeocacheDetailView: View {
                     }
                     print("Retrieved")
                     gotDetails = true
+                    print("https://www.geocaching.com/track/search.aspx?code=\(cache.code)")
+                    trackables = try await getTBs(url: URL(string: "https://www.geocaching.com/track/search.aspx?code=\(cache.code)")!)
                 }
             }
             .toolbar {

@@ -330,7 +330,11 @@ let PATTERN_TBPAGES = "<b>(\\d+)<\\/b>&nbsp;"
 func getTBs(url: URL = URL(string: "https://www.geocaching.com/track/search.aspx?code=GC40")!) async throws -> [Trackable] {
     let (_, data) = try await postData(url: url, body: "__EVENTTARGET=ctl00$ContentBody$ResultsPager$lbGoToPage_1".data(using: .utf8), headerFields: [:])
     let html = String(decoding: data, as: UTF8.self)
-    let pages = Int(html.groups(for: PATTERN_TBPAGES)[0][1]) ?? 1
+    let htmlGroups = html.groups(for: PATTERN_TBPAGES)
+    if htmlGroups.count == 0 {
+        return []
+    }
+    let pages = Int(htmlGroups[0][1]) ?? 1
     var trackables: [Trackable] = []
     for page in 1...pages {
         print("Retrieving page \(page)")
