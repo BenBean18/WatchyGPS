@@ -42,7 +42,12 @@ struct Geocache: Codable, Hashable, Identifiable {
     var userFound: Bool?
     var userDidNotFind: Bool?
     var cacheStatus: Int
-    var postedCoordinates: Coordinates
+    var postedCoordinates: Coordinates? = Coordinates(latitude: 0, longitude: 0)
+    var safePostedCoordinates: Coordinates {
+        get {
+            postedCoordinates ?? Coordinates(latitude: 0, longitude: 0)
+        }
+    }
     var userCorrectedCoordinates: Coordinates?
     var detailsUrl: String
     var hasGeotour: Bool
@@ -54,7 +59,7 @@ struct Geocache: Codable, Hashable, Identifiable {
     var region: String
     var country: String
     var attributes: [Attribute]?
-    var hasCallerNote: Bool
+    var hasCallerNote: Bool? = false // false for non-premium members
     var distance: String
     var bearing: String
 }
@@ -127,8 +132,21 @@ enum status: Hashable {
 func parse(json: Data) -> [Geocache] {
     let decoder = JSONDecoder()
     
-    if let caches = try? decoder.decode(Geocaches.self, from: json) {
-        return caches.results
+    do {
+        return try decoder.decode(Geocaches.self, from: json).results
+    } catch let DecodingError.dataCorrupted(context) {
+        print(context)
+    } catch let DecodingError.keyNotFound(key, context) {
+        print("Key '\(key)' not found:", context.debugDescription)
+        print("codingPath:", context.codingPath)
+    } catch let DecodingError.valueNotFound(value, context) {
+        print("Value '\(value)' not found:", context.debugDescription)
+        print("codingPath:", context.codingPath)
+    } catch let DecodingError.typeMismatch(type, context)  {
+        print("Type '\(type)' mismatch:", context.debugDescription)
+        print("codingPath:", context.codingPath)
+    } catch {
+        print("error: ", error)
     }
     return []
 }

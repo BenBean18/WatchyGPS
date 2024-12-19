@@ -143,6 +143,24 @@ struct GeocacheDetailView: View {
                 .lineLimit(1)
                 .foregroundColor(.gray)
                 HStack {
+                    Image(systemName: "safari") // TODO replace with legal symbol
+                        .padding(.trailing, 1)
+                        .fixedSize()
+                        .lineLimit(1)
+                        .foregroundColor(.gray)
+                    Text("\(String(format: "%.7f", cache.safePostedCoordinates.latitude)),\(String(format: "%.7f", cache.safePostedCoordinates.longitude))")
+                        .font(.system(size: UIFont.preferredFont(forTextStyle: .footnote).pointSize, weight: .medium, design: .monospaced))
+                        .lineLimit(1)
+                        .foregroundColor(.gray)
+                    Spacer()
+                }
+                .padding([.top, .bottom], 1)
+#if os(iOS)
+                .onTapGesture(count: 1, perform: {
+                    UIPasteboard.general.string = "\(String(format: "%.7f", cache.safePostedCoordinates.latitude)),\(String(format: "%.7f", cache.safePostedCoordinates.longitude))"
+                })
+#endif
+                HStack {
                     if cache.userDidNotFind ?? false {
                         SadFace()
                             .frame(minWidth: 16, minHeight: 16)
@@ -230,7 +248,7 @@ struct GeocacheDetailView: View {
             .toolbar {
                 ToolbarItem {
                     NavigationLink {
-                        CompassView(lat: String(cache.postedCoordinates.latitude), lon: String(cache.postedCoordinates.longitude))
+                        CompassView(lat: String(cache.safePostedCoordinates.latitude), lon: String(cache.safePostedCoordinates.longitude))
                     } label: {
                         Image(systemName: "mappin.circle.fill")
                     }

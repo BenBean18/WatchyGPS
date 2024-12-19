@@ -89,7 +89,7 @@ struct GeocacheMapView: View {
     @State var showDetailView: Bool = false
     @State var settingsPresented: Bool = false
     @State var maxGeocaches: Double = 100
-    @State var caching: Bool = false
+    @State var caching: Bool = true
     @State var cacheCleared: Bool = false
     var body: some View {
         Group {
@@ -97,7 +97,7 @@ struct GeocacheMapView: View {
                 if !hasRegion {
                     NavigationLink(destination: detailView, isActive: $showDetailView, label: { EmptyView() })
                         .hidden()
-                    MapView(annotationItems: geocaches.map { geocache in MapTileAnnotation(coords: CLLocationCoordinate2D(latitude: geocache.postedCoordinates.latitude, longitude: geocache.postedCoordinates.longitude), data: geocache) }, z: $z, center: $center, userLocation: $location, userHeading: $heading, caching: $caching) { annot in
+                    MapView(annotationItems: geocaches.map { geocache in MapTileAnnotation(coords: CLLocationCoordinate2D(latitude: geocache.safePostedCoordinates.latitude, longitude: geocache.safePostedCoordinates.longitude), data: geocache) }, z: $z, center: $center, userLocation: $location, userHeading: $heading, caching: $caching) { annot in
                         GCIcon(gc: annot.data as! Geocache, detailView: $detailView, showDetailView: $showDetailView)
 //                        AnyView(//NavigationLink {
 //                            //GeocacheDetailView(cache: annot.data as! Geocache)

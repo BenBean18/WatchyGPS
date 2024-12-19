@@ -16,7 +16,7 @@ struct GeocacheView: View {
     @Binding var location: CLLocation?
     var distanceString: String {
         get {
-            let distance = distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: geocache.postedCoordinates.latitude, longitude: geocache.postedCoordinates.longitude))
+            let distance = distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: geocache.safePostedCoordinates.latitude, longitude: geocache.safePostedCoordinates.longitude))
             return getDistanceString(distance: distance)
         }
     }

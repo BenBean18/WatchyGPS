@@ -36,13 +36,13 @@ struct GeocacheListView: View {
         var sortFunc: ((Geocache, Geocache) -> Bool)? = nil
         switch sort {
         case "distance":
-            sortFunc = { distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $0.postedCoordinates.latitude, longitude: $0.postedCoordinates.longitude)) < distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $1.postedCoordinates.latitude, longitude: $1.postedCoordinates.longitude)) }
+            sortFunc = { distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $0.safePostedCoordinates.latitude, longitude: $0.safePostedCoordinates.longitude)) < distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $1.safePostedCoordinates.latitude, longitude: $1.safePostedCoordinates.longitude)) }
         case "favorites":
             sortFunc = { $0.favoritePoints > $1.favoritePoints }
         case "TBs":
             sortFunc = { $0.trackableCount > $1.trackableCount }
         default:
-            sortFunc = { distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $0.postedCoordinates.latitude, longitude: $0.postedCoordinates.longitude)) < distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $1.postedCoordinates.latitude, longitude: $1.postedCoordinates.longitude)) }
+            sortFunc = { distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $0.safePostedCoordinates.latitude, longitude: $0.safePostedCoordinates.longitude)) < distanceInMeters(from: location?.coordinate ?? CLLocationCoordinate2D(latitude: 0, longitude: 0), to: CLLocationCoordinate2D(latitude: $1.safePostedCoordinates.latitude, longitude: $1.safePostedCoordinates.longitude)) }
         }
         geocaches.sort(by: sortFunc!)
     }
